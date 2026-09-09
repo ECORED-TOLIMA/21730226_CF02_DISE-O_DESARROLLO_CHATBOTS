@@ -3,14 +3,14 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
+    top: 18%
+    left: 0%
     width: 20%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
+    top: 70%
+    right: 15%
     width: 20%
 
 
@@ -20,17 +20,27 @@
 
   100%
     transform: translateY(0px)
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: 100% 100% !important
+    background-position: center
+    min-height: 520px
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/imgbaner.png") !important
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 //.banner-principal__row .banner-principal__img 
-//    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+//    width: 33%; 
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -39,20 +49,15 @@
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+
 figcaption 
     font-weight: normal !important
-
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
-
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
 .p-full-width
-  padding: 3rem 3.5rem!important;
+  padding: 3rem 3.5rem!important
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -64,12 +69,6 @@ figcaption
 .bg-color
   &-1
     background-color: $color-primario
-
-
-
-
-
-
 
 /**************************************************************/
 /*Media Queries*/  
@@ -103,4 +102,273 @@ figcaption
     margin-bottom: 2em  !important
 
   
- 
+//INTRO
+.cajon.color-secundario
+  background-color: #F3E2FE
+.cajon.color-primario
+  background-color: #DBF7FA
+.tarjeta--colsecundario
+  background-color: #F3E2FE
+.BGF00
+  background-image: url("../assets/curso/temas/bg/imgdegradado.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.BGF01
+  background-image: url("../assets/curso/temas/bg/imgfondo1.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGF02
+  background-image: url("../assets/curso/temas/bg/imgfondo2.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGF03
+  background-image: url("../assets/curso/temas/bg/imgfondo3.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGTARG
+  background-image: url("../assets/curso/temas/bg/imgfondotarjeta.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+.bgwhite
+  background-color: #FFFFFF
+.bg01
+  background-color: #AFEDF6
+  background-position: center
+.bg02
+  background-color: #DBF7FA
+  background-position: center
+.bg03
+  background-color: #CFD7F8
+  background-position: center
+.bg04
+  background-color: #FEF8DA
+  background-position: center
+.bg05
+  background-color: #E7C6FE
+  background-position: center
+.bg06
+  background-color: #FCE684
+  background-position: center
+.intro-avatar-principal
+  .tarjeta-avatar-b__img
+    min-width: 42%
+    max-width: 42%
+  .tarjeta
+    margin-left: -21%
+    padding-left: 21%
+
+.linea-tiempo-d__item__content__title
+  background-color: #CFD7F8
+.linea-tiempo-d__item__content__slot
+  background-color: #FEDEDE
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #D8FFF2
+.tarjeta--gris, .tarjeta--azul
+  background-color: #CFD7F8
+.linea-tiempo-d__item__number
+  background-color: #0F38DD
+  color: #fff !important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  color: #000 !important
+.fa-chevron-right, .fa-chevron-left
+  color: #0F38DD !important
+.tabla-a thead
+  background-color: #FEF8DA
+.tabla-a tbody tr
+  &:nth-child(odd)
+    background-color: #FBF7F1
+  &:nth-child(even)
+    background-color: $white
+.tabs-c__tab
+  background-color: #CFD7F8
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  background-color: white
+
+.titulo-pastilla
+  display: inline-flex
+  align-items: center
+  gap: 14px
+  background-color: #F3E2FE
+  border-radius: 25px
+  height: 53px
+  padding: 0 26px 0 8px
+  margin-bottom: 24px
+  @media (max-width: $bp-max-sm)
+    height: auto
+    padding: 8px 26px 8px 8px
+  img
+    width: 60px
+    height: auto
+    margin-left: -8px
+  span
+    font-weight: 700
+    font-size: 20px
+    color: $color-sistema-texto
+    line-height: 1  
+.tarjeta--boton.bg03
+  transition: background-color .3s ease
+  &:hover
+    background-color: #DBF7FA
+      
+.titulo-pastilla1
+  display: inline-flex
+  align-items: center
+  gap: 14px
+  background-color: #FEF8DA
+  border-radius: 25px
+  height: 33px
+  padding: 0 26px 0 8px
+  margin-bottom: 24px
+  @media (max-width: $bp-max-sm)
+    height: auto
+    padding: 8px 26px 8px 8px
+  img
+    width: 50px
+    height: auto
+    margin-left: -8px
+  span
+    font-weight: 700
+    font-size: 20px
+    color: $color-sistema-texto
+    line-height: 1
+
+.tema3-icono-paso
+  max-width: 130px
+.tema3 .acordion__titulo h3
+  font-size: $h5-font-size
+.tema3 .acordion__accion__btn--a
+  background-color: #0F38DD
+  color: $white
+
+.acordion__activo
+  background-color: #D8FFF2
+.acordion__accion__btn--b 
+  border: 1px solid #0F38DD
+  background-color: #0F38DD
+  color: white !important
+.tabs-a__tab
+  background-color: #CFD7F8
+
+.slyder-a__bullets__item
+  background-color: #0F38DD
+  opacity: 1
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #0F38DD
+  opacity: 1
+
+.slyder-a__bullets__item--active
+  background-color: #D6A0FC
+  border-color: #D6A0FC
+
+.linea-tiempo-c__header__btn, .pasos-b__header__btn--left, .pasos-b__header__btn--right, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+    border: 2px solid #0F38DD
+    background-color: #0F38DD
+
+.fa-angle-right, .fa-angle-left
+  color: $white !important
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #D6A0FC
+  background-color: #D6A0FC
+.pasos-b.color-primario .pasos-b__header__item--active .pasos-b__header__item__dot
+  border: 3px solid #0F38DD
+  background-color: #0F38DD
+.pasos-b.color-primario .pasos-b__header__item--active .pasos-b__header__item__dot span
+  color: #FFF !important
+.pasos-b__header__item__dot i
+  color: #000 !important
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before,  .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #9D9D9D
+.fas.fa-comment
+  color: #FCE684 !important
+// Tema 1
+.tema1
+  .slyder-b h3
+    font-size: $h5-font-size
+  .titulo-pastilla1
+    max-width: 100%
+    height: auto
+    min-height: 33px
+    span
+      line-height: 1.2
+  .BGF02
+    @media (min-width: 576px) and (max-width: 767.98px)
+      margin-inline: -1.5rem !important
+
+.tema1-icono
+  width: 80px
+  height: 80px
+.tema1-destacado
+  background-color: #F3E2FE
+.slyder__btn
+  background-color: #0F38DD
+  color: #fff !important
+// Tema 2
+.tema2-ventajas
+  background: linear-gradient(to bottom, $white, #FEF8DA 30%, #FEF8DA 70%, $white)
+.tema2-icono-cierre
+  width: 85px
+  height: 85px
+
+.tema2-imagen-ajustada
+  object-fit: cover
+.tema2-destacado
+  background-color: #D9F7FA
+
+// Tema 4
+.tema4-personaje, .tema5-personaje
+  max-width: 280px
+.tema4-icono, .tema5-icono
+  width: 90px
+  height: 90px
+.tema4-icono-hallazgo
+  width: 110px
+  height: 110px
+  padding: 18px
+  border: 10px solid #0F38DD
+  border-radius: 50%
+  background-color: $white
+  img
+    height: 100%
+    object-fit: contain
+.tema4 .tarjeta--boton:hover .tema4-icono-hallazgo
+  border-color: $color-primario
+.tema4-fondo-cierre
+  background: linear-gradient(to bottom, $white, #FEF8DA 30%, #FEF8DA 70%, $white)
+  .fa-comment
+    color: $color-acento-contenido
+.tema4 .acordion__titulo h3, .tema5 .acordion__titulo h3
+  font-size: $h5-font-size
+@media (min-width: 576px) and (max-width: 767px)
+  .tema4 .BGF01, .tema4 .BGF02, .tema5 .BGF01
+    margin-inline: -1.5rem !important
+
+@media screen and (min-width: $bp-min-lg)
+  .tema4-tabs > .row
+    > :first-child
+      flex: 0 0 auto
+      width: 41.66666667%
+    > :last-child
+      flex: 0 0 auto
+      width: 58.33333333%

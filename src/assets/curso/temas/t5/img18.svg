@@ -1,0 +1,33 @@
+<svg id="img18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fce684"/>
+      <stop offset="0.733" stop-color="#fce684"/>
+      <stop offset="1" stop-color="#fce684" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_468627" data-name="Rectangle 468627" width="46.041" height="46.052" transform="translate(0 0)" fill="#12263f"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1180287" data-name="Group 1180287">
+    <circle id="Ellipse_13692" data-name="Ellipse 13692" cx="42" cy="42" r="42" fill="url(#radial-gradient)"/>
+    <g id="Group_1217230" data-name="Group 1217230" transform="translate(18.98 17.476)">
+      <g id="Group_1217229" data-name="Group 1217229" transform="translate(0 0.001)" clip-path="url(#clip-path)">
+        <path id="Path_1290927" data-name="Path 1290927" d="M35.651,44.549l-.025,1.5H10.414l-.031-1.5H13.37l-.01-2.96-9.673-.015A3.7,3.7,0,0,1,0,37.854V14.128a3.726,3.726,0,0,1,3.679-3.736L7.5,10.385a12.57,12.57,0,0,1,12.74-2.066L25.58,0H39.353l-.008,1.486H26.392L21.605,8.934a22.415,22.415,0,0,1,2.076,1.45l18.526.006a3.718,3.718,0,0,1,3.831,3.74l0,23.72a3.726,3.726,0,0,1-3.822,3.74H32.683l-.022,2.964Zm-20.8-13.386V8.947a11.133,11.133,0,0,0,0,22.216m5.069-19.615-1.228-.816.724-1.167a20.506,20.506,0,0,0-3.082-.643l0,9.844,8.5-4.91a10.615,10.615,0,0,0-4.055-3.624Zm11.277,13.7,4.46,0v7.414l1.479-.018V20.785l4.462.007V32.656l1.493.037-.017,1.473-19.684,0-2.076-2.9A12.6,12.6,0,0,1,5.969,11.892l-2.283,0a2.2,2.2,0,0,0-2.2,2.246l0,20.027h9.148l2.2,1.488H44.553V14.144a2.219,2.219,0,0,0-2.219-2.257l-17.114,0a12.635,12.635,0,0,1,.017,16.315l4.472.011.005,4.45,1.477-.014Zm-5.617-.3a11.049,11.049,0,0,0,0-9.8l-8.5,4.9ZM20.67,27.793l1.078,1.53a10.912,10.912,0,0,0,3.079-3.086l-8.495-4.9,0,9.83a11.787,11.787,0,0,0,4.114-1.109l-1-1.414Zm17.942-5.521,0,10.424H40.1l0-10.424ZM32.67,26.728l0,5.969h1.492l0-5.968Zm-8.538,5.938,1.128-.015-.018-4.368a27.893,27.893,0,0,1-2.6,2.282ZM28.216,29.7H26.729V32.7h1.487ZM16.346,41.589l.009-1.482H42.332a2.351,2.351,0,0,0,2.179-2.974H12.425l-2.3-1.489-8.635.006,0,2.206a2.251,2.251,0,0,0,2.333,2.251l11.022,0,.013,4.448,16.334,0-.017-2.962Z" transform="translate(0 -0.001)" fill="#12263f"/>
+        <rect id="Rectangle_468618" data-name="Rectangle 468618" width="11.883" height="1.509" transform="translate(27.485 2.959)" fill="#12263f"/>
+        <rect id="Rectangle_468619" data-name="Rectangle 468619" width="8.898" height="1.499" transform="translate(27.486 5.931)" fill="#12263f"/>
+        <rect id="Rectangle_468620" data-name="Rectangle 468620" width="1.487" height="1.497" transform="translate(37.881 5.932)" fill="#12263f"/>
+        <rect id="Rectangle_468621" data-name="Rectangle 468621" width="1.487" height="1.482" transform="translate(2.96 37.129)" fill="#12263f"/>
+        <rect id="Rectangle_468622" data-name="Rectangle 468622" width="1.497" height="1.509" transform="translate(5.933 37.129)" fill="#12263f"/>
+        <rect id="Rectangle_468623" data-name="Rectangle 468623" width="1.48" height="1.509" transform="translate(8.908 37.128)" fill="#12263f"/>
+        <rect id="Rectangle_468624" data-name="Rectangle 468624" width="1.511" height="5.944" transform="translate(7.426 20.803) rotate(-89.85)" fill="#12263f"/>
+        <rect id="Rectangle_468625" data-name="Rectangle 468625" width="5.942" height="1.498" transform="translate(7.429 16.328)" fill="#12263f"/>
+        <rect id="Rectangle_468626" data-name="Rectangle 468626" width="5.942" height="1.496" transform="translate(7.429 22.271)" fill="#12263f"/>
+      </g>
+    </g>
+  </g>
+  <g id="Ellipse_13693" data-name="Ellipse 13693" fill="none" stroke="#fce684" stroke-width="1">
+    <circle cx="42" cy="42" r="42" stroke="none"/>
+    <circle cx="42" cy="42" r="41.5" fill="none"/>
+  </g>
+</svg>

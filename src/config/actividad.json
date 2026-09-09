@@ -1,0 +1,612 @@
+{
+  "tema": "Cuestionario",
+  "titulo": "Cuestionario",
+  "introduccion": "<b>Objetivo:</b> evaluar la comprensión de conceptos relacionados con el desarrollo de <em>chatbots</em> y soluciones conversacionales, mediante la identificación y aplicación de elementos asociados con su funcionamiento.",
+  "barajarPreguntas": true,
+  "titulo_aprobado": "¡BUEN TRABAJO!",
+  "titulo_reprobado": "VUELVA A INTENTARLO.",
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Cuál es la función del mensaje de bienvenida en un <em>chatbot</em>?",
+      "imagen": "@/assets/actividad/imagen1.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Despedirse del usuario al finalizar la conversación.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Saludo inicial que presenta al <em>chatbot</em>, explica brevemente sus capacidades y orienta al usuario.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Mensaje que aparece cuando el <em>chatbot</em> no entiende al usuario.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Notificación que se envía cuando se cierra una sesión por inactividad.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! El mensaje de bienvenida es el primer saludo que el <em>chatbot</em> envía al usuario al iniciar la conversación.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 2,
+      "texto": "¿Cuándo se entrega al usuario el mensaje de respaldo o <em>fallback</em> en un <em>chatbot</em>?",
+      "imagen": "@/assets/actividad/imagen2.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Al iniciar cualquier conversación.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Cuando el usuario solicita explícitamente más información.",
+          "esCorrecta": false
+        },
+        {
+          "id": "c",
+          "texto": "Cuando el <em>chatbot</em> no logra comprender la intención del usuario.",
+          "esCorrecta": true
+        },
+        {
+          "id": "d",
+          "texto": "Solo durante las pruebas internas del sistema.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! El mensaje de respaldo se entrega cuando el <em>chatbot</em> no comprende la intención del usuario; debe ser empático, no culpar al usuario por la incomprensión y ofrecer alternativas como reformular la pregunta o transferir a un agente humano.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué son las variables del usuario en la configuración de un <em>chatbot</em>?",
+      "imagen": "@/assets/actividad/imagen3.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Errores que se generan cuando el usuario escribe mal una palabra.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Datos que el <em>chatbot</em> recuerda durante la conversación, como el nombre, ciudad o correo electrónico.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Categorías predefinidas para clasificar a los clientes.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Comandos especiales que solo conocen los administradores.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Las variables del usuario permiten recordar datos proporcionados durante la conversación y personalizar las respuestas.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 4,
+      "texto": "Según las buenas prácticas de creación de flujos, ¿cuántas opciones se recomienda presentar por mensaje?",
+      "imagen": "@/assets/actividad/imagen4.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Una sola opción.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Entre tres y cinco opciones.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Mínimo diez opciones para dar variedad.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "No hay límite recomendado.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Las buenas prácticas recomiendan presentar opciones limitadas, entre tres y cinco, para evitar saturar al usuario y facilitar la decisión.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 5,
+      "texto": "¿Qué es un mínimo producto viable en el contexto de la creación de <em>chatbots</em>?",
+      "imagen": "@/assets/actividad/imagen5.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "La versión final del <em>chatbot</em> con todas las funcionalidades, integraciones y características previstas para el proyecto.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Una versión gratuita y limitada del <em>chatbot</em>, desarrollada únicamente con las funciones disponibles en una plataforma sin costo.",
+          "esCorrecta": false
+        },
+        {
+          "id": "c",
+          "texto": "La primera versión que contempla únicamente las dos o tres intenciones más relevantes y los flujos esenciales.",
+          "esCorrecta": true
+        },
+        {
+          "id": "d",
+          "texto": "Un prototipo que solo se prueba en entornos cerrados sin usuarios reales y sin considerar las necesidades principales del servicio.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! El mínimo producto viable es la primera versión del <em>chatbot</em> que contempla únicamente las dos o tres intenciones más relevantes, los flujos esenciales y los mensajes básicos",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 6,
+      "texto": "¿Cuál es una buena práctica al redactar mensajes para un flujo conversacional?",
+      "imagen": "@/assets/actividad/imagen6.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Presentar toda la información disponible en un solo mensaje.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Mantener mensajes breves y claros.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Utilizar términos técnicos en todas las respuestas.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Evitar ofrecer alternativas al usuario.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Una buena práctica consiste en mantener los mensajes breves, idealmente entre 20 y 40 palabras, evitando bloques de texto extensos que el usuario probablemente no leerá, lo que mejora la legibilidad especialmente en pantallas móviles.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 7,
+      "texto": "¿Cuántas etapas componen el procedimiento de verificación de un <em>chatbot</em>?",
+      "imagen": "@/assets/actividad/imagen7.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Dos etapas: prueba y producción.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Tres etapas: análisis, ejecución y reporte.",
+          "esCorrecta": false
+        },
+        {
+          "id": "c",
+          "texto": "Cuatro etapas: planificación, diseño de casos de prueba, ejecución y análisis.",
+          "esCorrecta": true
+        },
+        {
+          "id": "d",
+          "texto": "Cinco etapas: planificación, diseño de casos de prueba, ejecución y análisis, incluyendo el lanzamiento público.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! El procedimiento de verificación se compone de cuatro etapas que se ejecutan de manera secuencial: planificación, diseño de los casos de prueba, ejecución y análisis.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 8,
+      "texto": "¿Qué es una prueba beta en el contexto de la verificación de un <em>chatbot</em>?",
+      "imagen": "@/assets/actividad/imagen8.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Una prueba realizada por programadores expertos.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Una prueba que solo se hace con datos sintéticos generados automáticamente.",
+          "esCorrecta": false
+        },
+        {
+          "id": "c",
+          "texto": "Una fase de pruebas con un grupo reducido de usuarios reales antes del lanzamiento masivo.",
+          "esCorrecta": true
+        },
+        {
+          "id": "d",
+          "texto": "Una prueba que se realiza después de lanzar el <em>chatbot</em> al público.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! La prueba beta es una fase de pruebas con un grupo reducido de usuarios reales antes del lanzamiento masivo.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 9,
+      "texto": "¿Qué mide la tasa de comprensión de un <em>chatbot</em>?",
+      "imagen": "@/assets/actividad/imagen9.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "El porcentaje de conversaciones transferidas a agentes humanos.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "El tiempo promedio de duración de una conversación.",
+          "esCorrecta": false
+        },
+        {
+          "id": "c",
+          "texto": "El porcentaje de mensajes que el <em>chatbot</em> interpreta correctamente.",
+          "esCorrecta": true
+        },
+        {
+          "id": "d",
+          "texto": "El porcentaje de usuarios que abandonan una conversación.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! La tasa de comprensión mide el porcentaje de mensajes que el <em>chatbot</em> interpreta correctamente, lo que permite valorar su capacidad para comprender las solicitudes de los usuarios.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 10,
+      "texto": "¿Qué tipo de pruebas validan que el <em>chatbot</em> ejecute correctamente las acciones esperadas, como comprender intenciones, extraer entidades y entregar respuestas adecuadas?",
+      "imagen": "@/assets/actividad/imagen10.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Pruebas de carga.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Pruebas funcionales.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Pruebas exploratorias.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Pruebas de regresión.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Las pruebas funcionales validan que el <em>chatbot</em> ejecute correctamente las acciones esperadas: comprende las intenciones, extrae las entidades, entrega las respuestas adecuadas y completa las tareas como agendar una cita o consultar un saldo.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 11,
+      "texto": "¿Cómo se clasifica un hallazgo que impide al <em>chatbot</em> cumplir su propósito principal o pone en riesgo al usuario?",
+      "imagen": "@/assets/actividad/imagen1.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Hallazgo menor.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Hallazgo crítico.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Hallazgo decorativo.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Hallazgo opcional.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Los hallazgos críticos son aquellos que impiden que el <em>chatbot</em> cumpla su propósito principal o ponen en riesgo a los usuarios; deben corregirse antes del lanzamiento, ya que bloquean la salida a producción.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 12,
+      "texto": "¿Qué tipo de hallazgo afecta significativamente la experiencia o la precisión del <em>chatbot</em>, pero no impide su funcionamiento básico?",
+      "imagen": "@/assets/actividad/imagen2.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Hallazgo crítico.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Hallazgo mayor.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Hallazgo menor.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Hallazgo nulo.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Los hallazgos mayores afectan significativamente la experiencia o la precisión del <em>chatbot</em>, pero no impiden el funcionamiento básico; deben corregirse en la versión inicial siempre que el cronograma lo permita.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 13,
+      "texto": "¿En qué consiste el ciclo <em>plan-do-</em><em>check</em><em>-</em><em>act</em> aplicado a la mejora continua de los <em>chatbots</em>?",
+      "imagen": "@/assets/actividad/imagen3.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Un proceso lineal de cuatro pasos consecutivos que se ejecutan una sola vez, sin retroalimentación ni ajustes posteriores.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Una metodología iterativa basada en cuatro fases: planificar, ejecutar, verificar y actuar.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Un protocolo de seguridad informática diseñado para prevenir riesgos, proteger la información y controlar el acceso a los sistemas.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Una técnica de respaldo automático de datos utilizada para conservar copias de seguridad y facilitar su recuperación ante posibles fallos.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! El ciclo <em>plan-do-</em><em>check</em><em>-</em><em>act</em> es una metodología iterativa de mejora basada en cuatro fases. En la planificación se identifican oportunidades de mejora, en la ejecución se aplican los cambios en pruebas, en la verificación se mide el impacto y en la actuación se decide si los cambios se promueven a producción.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 14,
+      "texto": "¿Qué es un informe técnico?",
+      "imagen": "@/assets/actividad/imagen4.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Un documento publicitario que presenta las características, beneficios y ventajas del <em>chatbot</em> para promocionarlo ante posibles usuarios.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Un documento que comunica de manera ordenada, clara y precisa los resultados de un proceso técnico, científico o profesional.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Un manual de usuario que explica las funcionalidades, características e instrucciones necesarias para utilizar el <em>chatbot</em> adecuadamente.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Una guía didáctica que presenta contenidos, orientaciones y actividades para enseñar a los usuarios cómo utilizar un producto o servicio.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Un informe técnico comunica de manera ordenada, clara y precisa los resultados de un proceso, respaldándose en la objetividad, la precisión y la evidencia.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 15,
+      "texto": "¿Cuáles son las cinco características principales de un buen informe técnico?",
+      "imagen": "@/assets/actividad/imagen5.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Originalidad, brevedad, color, atractivo y diseño.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Claridad, objetividad, concisión, precisión y trazabilidad.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Velocidad, simplicidad, novedad, gratuidad y portabilidad.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Confidencialidad, anonimato, secreto, privacidad y discreción.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Las características principales de un buen informe técnico son la claridad, la objetividad, la concisión, la precisión y la trazabilidad. Cada una asegura que el documento cumpla su función de comunicar resultados de manera profesional y verificable.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 16,
+      "texto": "En la estructura recomendada del informe técnico de un <em>chatbot</em>, ¿qué función cumple el resumen ejecutivo?",
+      "imagen": "@/assets/actividad/imagen6.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Listar todas las personas que participaron en el proyecto, indicando sus funciones, responsabilidades y aportes durante el desarrollo del <em>chatbot</em>.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Presentar la síntesis del proyecto, hallazgos clave y conclusiones en máximo una página.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Detallar el código fuente del <em>chatbot</em>.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Incluir gráficos decorativos de la marca.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! El resumen ejecutivo es la síntesis del proyecto, hallazgos clave y conclusiones en máximo una página. Permite al lector identificar rápidamente el documento y comprender sus puntos clave en pocos minutos.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 17,
+      "texto": "¿Qué propiedad garantiza que cada afirmación del informe técnico pueda rastrearse hasta su fuente original?",
+      "imagen": "@/assets/actividad/imagen7.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "La concisión.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "La trazabilidad.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "La originalidad.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "La brevedad.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! La trazabilidad es la propiedad por la cual cada afirmación del informe puede rastrearse hasta su fuente original, como la bitácora de pruebas que sirve como soporte de los hallazgos reportados.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 18,
+      "texto": "¿En qué persona gramatical debe redactarse el informe técnico, según las convenciones del contexto profesional colombiano?",
+      "imagen": "@/assets/actividad/imagen8.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "En primera persona del singular.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "En primera persona del plural.",
+          "esCorrecta": false
+        },
+        {
+          "id": "c",
+          "texto": "En segunda persona.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "En tercera persona.",
+          "esCorrecta": true
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! El informe técnico se redacta en tercera persona, con un tono neutro y profesional. Se evita el uso de la primera persona —tanto del singular como del plural— porque desplaza el foco del trabajo al autor.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 19,
+      "texto": "¿Qué elemento permite respaldar los resultados y hallazgos presentados en un informe técnico?",
+      "imagen": "@/assets/actividad/imagen9.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "La opinión personal del autor.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Las evidencias y soportes del proyecto",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Los elementos gráficos decorativos.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "La extensión del documento.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! Las evidencias y soportes del proyecto permiten respaldar los resultados y hallazgos presentados en el informe técnico, ya que aportan información verificable sobre las actividades realizadas y los resultados obtenidos.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    },
+    {
+      "id": 20,
+      "texto": "¿Cuál de las siguientes opciones presenta una estructura adecuada para organizar un informe técnico de un <em>chatbot</em>?",
+      "imagen": "@/assets/actividad/imagen10.png",
+      "barajarRespuestas": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Introducción, objetivos, diseño, desarrollo, pruebas, resultados, conclusiones y referencias.",
+          "esCorrecta": false
+        },
+        {
+          "id": "b",
+          "texto": "Portada, resumen ejecutivo, introducción, metodología, desarrollo, resultados, hallazgos y ajustes, conclusiones y recomendaciones, y anexos.",
+          "esCorrecta": true
+        },
+        {
+          "id": "c",
+          "texto": "Portada, introducción, descripción del producto, publicidad, resultados, conclusiones y recomendaciones.",
+          "esCorrecta": false
+        },
+        {
+          "id": "d",
+          "texto": "Resumen ejecutivo, presentación del <em>chatbot</em>, funcionalidades, capturas de pantalla, pruebas, conclusiones y anexos.",
+          "esCorrecta": false
+        }
+      ],
+      "mensaje_correcto": "¡Muy bien! La estructura recomendada para el informe técnico de un <em>chatbot</em> incluye nueve secciones: portada, resumen ejecutivo, introducción, metodología, desarrollo, resultados, hallazgos y ajustes, conclusiones y recomendaciones, y anexos. Esta estructura asegura cubrir los aspectos esenciales del proyecto.",
+      "mensaje_incorrecto": "Revise nuevamente el contenido del componente formativo."
+    }
+  ],
+  "mensaje_final_aprobado": "Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.",
+  "mensaje_final_reprobado": "No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica."
+}

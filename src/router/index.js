@@ -30,20 +30,27 @@ const router = createRouter({
         {
           path: 'tema1',
           name: 'tema1',
-          component: () =>
-            import(/* webpackChunkName: "tema1" */ '../views/Tema1.vue'),
+          component: () => import('../views/Tema1.vue'),
         },
         {
           path: 'tema2',
           name: 'tema2',
-          component: () =>
-            import(/* webpackChunkName: "tema2" */ '../views/Tema2.vue'),
+          component: () => import('../views/Tema2.vue'),
         },
         {
           path: 'tema3',
           name: 'tema3',
-          component: () =>
-            import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
+          component: () => import('../views/Tema3.vue'),
+        },
+        {
+          path: 'tema4',
+          name: 'tema4',
+          component: () => import('../views/Tema4.vue'),
+        },
+        {
+          path: 'tema5',
+          name: 'tema5',
+          component: () => import('../views/Tema5.vue'),
         },
       ],
     },

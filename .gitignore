@@ -1,4 +1,5 @@
 .DS_Store
+.codex-preview
 node_modules
 /dist
 
@@ -20,3 +21,6 @@ pnpm-debug.log*
 *.sln
 *.sw?
 README.md
+maquetacion.md
+flujo_maquetacion.md
+informe-validacion-texto.md

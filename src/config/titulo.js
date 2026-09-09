@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Configuración, creación, verificación y documentación de flujos conversacionales.'

@@ -1,0 +1,1541 @@
+{
+  "source": "21730226_CF02_DI.docx",
+  "themes": [
+    {
+      "title": "Configuración de los parámetros de la conversación",
+      "number": 1,
+      "subs": [
+        {
+          "number": "1.1",
+          "title": "Parámetros generales del chatbot",
+          "hash": "t_1_1"
+        },
+        {
+          "number": "1.2",
+          "title": "Configuración del flujo y de los canales",
+          "hash": "t_1_2"
+        }
+      ],
+      "source": [
+        {
+          "index": 52,
+          "html": "La configuración de los parámetros del <em>chatbot</em> determina su comportamiento en distintas situaciones y requiere una planificación cuidadosa. Por lo anterior, en primer lugar, se presentan los parámetros generales; en segundo lugar, los parámetros específicos relacionados con el flujo conversacional y los canales de comunicación."
+        },
+        {
+          "index": 55,
+          "html": "Los parámetros generales son los elementos que cualquier <em>chatbot</em> debe tener configurados, independientemente de la plataforma o del sector en el que se utilice. Estos parámetros constituyen la base mínima funcional del sistema y contribuyen a mantener una experiencia coherente para el usuario."
+        },
+        {
+          "index": 56,
+          "html": "Entre los principales parámetros se encuentran los siguientes, con su debida ejemplificación:"
+        },
+        {
+          "index": 58,
+          "html": "<strong>Mensaje de bienvenida</strong>"
+        },
+        {
+          "index": 59,
+          "html": "Se configura al inicio del flujo para identificar el <em>chatbot</em>, comunicar sus capacidades principales y orientar al usuario sobre las opciones disponibles. Debe ser breve y coherente con la interacción."
+        },
+        {
+          "index": 60,
+          "html": "«¡Hola! Soy Pipo, el asistente virtual de la pizzería. Puedo ayudarte con el menú, el estado de tu pedido o información sobre nuestros horarios»."
+        },
+        {
+          "index": 61,
+          "html": "<strong>Mensaje de despedida</strong>"
+        },
+        {
+          "index": 62,
+          "html": "Permite cerrar la conversación de manera cordial, confirmar la finalización de la interacción y dejar abierta la posibilidad de una nueva consulta o interacción con el <em>chatbot</em>."
+        },
+        {
+          "index": 63,
+          "html": "«¡Gracias por comunicarte con nosotros! Esperamos atenderte nuevamente. ¡Que tengas un buen día!»."
+        },
+        {
+          "index": 64,
+          "html": "<strong>Mensaje de respaldo</strong>"
+        },
+        {
+          "index": 65,
+          "html": "Se configura para responder cuando el <em>chatbot</em> no comprende la solicitud del usuario. Debe ofrecer una alternativa que permita continuar la interacción o solicitar atención humana."
+        },
+        {
+          "index": 66,
+          "html": "«No logré comprender tu solicitud. Puedes escribir nuevamente tu pregunta o seleccionar una de las opciones disponibles. Si lo prefieres, puedo comunicarte con un asesor»."
+        },
+        {
+          "index": 67,
+          "html": "<strong>Tiempo de espera</strong>"
+        },
+        {
+          "index": 68,
+          "html": "Define el periodo de inactividad antes de cerrar una conversación. Su configuración depende del tipo de servicio y de las características de la interacción."
+        },
+        {
+          "index": 69,
+          "html": "«Han pasado 5 minutos sin recibir una respuesta. Cerraré esta conversación por ahora. Cuando necesites ayuda nuevamente, estaré disponible para atenderte»."
+        },
+        {
+          "index": 70,
+          "html": "<strong>Reglas de escalamiento</strong>"
+        },
+        {
+          "index": 71,
+          "html": "Establecen las condiciones para transferir la conversación a un agente humano. Pueden activarse por una solicitud directa del usuario o cuando el sistema identifica dificultades para continuar la interacción."
+        },
+        {
+          "index": 72,
+          "html": "Si el usuario escribe «Quiero hablar con un asesor» o si el <em>chatbot</em> no logra interpretar la solicitud después de varios intentos, se activa la transferencia."
+        },
+        {
+          "index": 74,
+          "html": "En conjunto, los parámetros generales permiten establecer las condiciones básicas para el funcionamiento del <em>chatbot</em> y orientar su comportamiento durante la interacción. Una configuración adecuada de los mensajes, los tiempos de espera y las reglas de escalamiento contribuye a mantener conversaciones claras y coherentes, además de facilitar la atención de situaciones que requieren una respuesta diferente a la prevista. Estos elementos constituyen la base para avanzar hacia la configuración del flujo conversacional y su posterior verificación."
+        },
+        {
+          "index": 77,
+          "html": "Adicionalmente a los parámetros generales, existen configuraciones específicas relacionadas con el funcionamiento del flujo y con los canales por los cuales se accede al <em>chatbot</em>. Estos parámetros se ajustan según las necesidades particulares de cada proyecto y pueden modificarse a lo largo del ciclo de vida del <em>chatbot</em>. Su adecuada configuración permite adaptar la interacción, establecer condiciones de operación, incorporar funcionalidades adicionales y mantener el sistema preparado para posteriores ajustes."
+        },
+        {
+          "index": 79,
+          "html": "<strong>Configuración de la interacción</strong>"
+        },
+        {
+          "index": 80,
+          "html": "La configuración de la interacción reúne los elementos que permiten adaptar el comportamiento del <em>chatbot</em> a las características del usuario y a las condiciones en las que se desarrolla la conversación. En este grupo se consideran la información que el sistema puede conservar durante el diálogo, las condiciones regionales, los medios de acceso y las características lingüísticas de la interacción. Entre los principales aspectos se encuentran:"
+        },
+        {
+          "index": 82,
+          "html": "<strong>Variables del usuario</strong>"
+        },
+        {
+          "index": 83,
+          "html": "Son los datos que el <em>chatbot</em> conserva durante la conversación, como el nombre, el número de documento, la ciudad o el correo electrónico. Estas variables permiten personalizar las respuestas y evitar solicitar información que el usuario ya proporcionó. Por ejemplo: «Gracias, Andrés. Hemos registrado tu solicitud y enviaremos la respuesta al correo electrónico proporcionado»."
+        },
+        {
+          "index": 86,
+          "html": "<strong>Idioma y zona horaria</strong>"
+        },
+        {
+          "index": 87,
+          "html": "Definen la configuración regional del <em>chatbot</em> y permiten adaptar la interacción a las características de los usuarios. Cuando una organización atiende diferentes regiones, estos parámetros ayudan a evitar confusiones relacionadas con el idioma o los horarios. Por ejemplo: un <em>chatbot</em> que atiende usuarios en Colombia y México puede mostrar los horarios de atención correspondientes a cada zona."
+        },
+        {
+          "index": 88,
+          "html": "<strong>Canales de comunicación</strong>"
+        },
+        {
+          "index": 89,
+          "html": "Determinan los medios mediante los cuales los usuarios pueden acceder al <em>chatbot</em>. En esta configuración se habilitan los canales seleccionados para el proyecto y se incorporan las credenciales necesarias para su funcionamiento. Por ejemplo: un mismo <em>chatbot</em> puede configurarse para atender consultas desde un sitio <em>web</em>, WhatsApp, Messenger, Instagram o Telegram."
+        },
+        {
+          "index": 90,
+          "html": "<strong>Horarios de atención</strong>"
+        },
+        {
+          "index": 91,
+          "html": "Permiten establecer comportamientos diferentes según el momento en que se realiza la consulta. Aunque el <em>chatbot</em> puede permanecer disponible de manera continua, algunas funciones, como la transferencia a un agente humano, pueden limitarse al horario laboral. Por ejemplo: «En este momento nuestros asesores no están disponibles. El horario de atención es de lunes a viernes, de 8:00 a. m. a 5:00 p. m. Puedes dejar tus datos y nos comunicaremos contigo»."
+        },
+        {
+          "index": 92,
+          "html": "<strong>Configuración multilingüe</strong>"
+        },
+        {
+          "index": 93,
+          "html": "Permite adaptar las respuestas a las características lingüísticas del público atendido. Cada idioma activo requiere revisar las intenciones, las frases de entrenamiento y las respuestas utilizadas en el flujo para mantener una interacción adecuada. Por ejemplo: un <em>chatbot</em> configurado en español e inglés puede presentar el saludo y las opciones iniciales según el idioma seleccionado por el usuario."
+        },
+        {
+          "index": 95,
+          "html": "Estos elementos deben configurarse de manera coherente con las características del público, los canales disponibles y el propósito del <em>chatbot</em>. Su definición inicial también puede revisarse posteriormente cuando los resultados de las pruebas o las necesidades del servicio indiquen la conveniencia de realizar ajustes."
+        },
+        {
+          "index": 97,
+          "html": "<strong>Configuraciones de operación y seguridad</strong>"
+        },
+        {
+          "index": 98,
+          "html": "Una vez establecidos los elementos que intervienen directamente en la interacción, la configuración debe contemplar las condiciones bajo las cuales opera el <em>chatbot</em> y las medidas necesarias para proteger al usuario, la información y las acciones que puede ejecutar. Estos aspectos permiten establecer el nivel de automatización, controlar las operaciones que requieren confirmación, proteger los datos y conservar la configuración del sistema para su recuperación. Entre ellos se encuentran:"
+        },
+        {
+          "index": 99,
+          "html": "Modo de operación"
+        },
+        {
+          "index": 100,
+          "html": "El <em>chatbot</em> puede funcionar en modo automático, donde responde por sí mismo sin intervención humana, o en modo asistido, donde un agente supervisa las respuestas antes de enviarlas. El modo asistido puede utilizarse durante las primeras etapas de implementación, cuando el equipo aún está validando la calidad del sistema, y desactivarse progresivamente a medida que aumenta la confianza en sus respuestas."
+        },
+        {
+          "index": 102,
+          "html": "<strong>Acciones automáticas</strong>"
+        },
+        {
+          "index": 103,
+          "html": "Permiten que el <em>chatbot</em> ejecute operaciones a partir de las solicitudes del usuario. Cuando estas acciones pueden tener consecuencias importantes, es conveniente establecer mecanismos de confirmación antes de ejecutarlas y registrar las acciones realizadas en las bitácoras del sistema. Esto facilita su seguimiento, permite identificar posibles errores y aporta información para revisar el funcionamiento del <em>chatbot</em>."
+        },
+        {
+          "index": 104,
+          "html": "<strong>Seguridad y protección de datos</strong>"
+        },
+        {
+          "index": 105,
+          "html": "Deben considerarse desde la configuración del <em>chatbot</em>. En Colombia, las organizaciones deben tener en cuenta las disposiciones de la Ley 1581 de 2012 relacionadas con el tratamiento de datos personales. Por ello, se deben establecer mecanismos para informar al usuario sobre el tratamiento de sus datos y, cuando corresponda, permitirle ejercer sus derechos sobre la información proporcionada."
+        },
+        {
+          "index": 106,
+          "html": "<strong>Protección de información sensible</strong>"
+        },
+        {
+          "index": 107,
+          "html": "El <em>chatbot</em> no debe solicitar directamente contraseñas, números completos de tarjetas de crédito o claves de seguridad. Cuando sea necesario autenticar al usuario, conviene utilizar canales seguros, como el portal <em>web</em> de la organización o una aplicación móvil con mecanismos adecuados de autenticación. Esta práctica protege la información del usuario y reduce los riesgos asociados con suplantaciones o fraudes."
+        },
+        {
+          "index": 108,
+          "html": "<strong>Respaldo y recuperación</strong>"
+        },
+        {
+          "index": 109,
+          "html": "Permiten conservar los elementos principales del <em>chatbot</em> y restaurarlos en caso de pérdida, corrupción o necesidad de migración. Las plataformas profesionales suelen permitir exportar la configuración de los flujos, intenciones, frases de entrenamiento y parámetros. Se recomienda realizar respaldos periódicos y comprobar que puedan restaurarse correctamente."
+        },
+        {
+          "index": 111,
+          "html": "La aplicación de estas configuraciones permite establecer condiciones de operación más seguras y controladas. Además, facilita que el sistema pueda mantenerse y recuperarse ante situaciones imprevistas sin perder el trabajo realizado durante su configuración."
+        },
+        {
+          "index": 113,
+          "html": "<strong>Opciones avanzadas de configuración</strong>"
+        },
+        {
+          "index": 114,
+          "html": "Una vez establecidos los parámetros básicos de interacción, operación y seguridad, algunas plataformas profesionales ofrecen funcionalidades avanzadas que permiten adaptar el comportamiento del <em>chatbot</em> a necesidades específicas. Estas opciones pueden utilizarse cuando el proyecto requiere respuestas diferenciadas según el horario, la ubicación, el idioma, los grupos de usuarios o la interacción con sistemas externos."
+        },
+        {
+          "index": 115,
+          "html": "Entre las principales funcionalidades se encuentran los horarios diferenciados, la geolocalización, la internacionalización, las pruebas A/B y los eventos personalizados. Para facilitar la identificación de su utilidad y aplicación práctica, la siguiente tabla relaciona cada opción con su función y presenta un caso de uso típico:"
+        },
+        {
+          "index": 125,
+          "html": "<strong>Tabla 1.</strong> Opciones avanzadas de configuración del <em>chatbot</em>"
+        },
+        {
+          "index": 126,
+          "table": [
+            [
+              "<strong>Opción</strong>",
+              "<strong>Función</strong>",
+              "<strong>Caso de uso típico</strong>"
+            ],
+            [
+              "Horario diferenciado.",
+              "Comportamiento distinto según día u hora.",
+              "Mostrar promociones de almuerzo solo en horas de mediodía."
+            ],
+            [
+              "Geolocalización.",
+              "Personalización según ubicación del usuario.",
+              "Recomendar la sucursal más cercana al usuario."
+            ],
+            [
+              "Internacionalización.",
+              "Idioma adaptado automáticamente.",
+              "Saludar en español o inglés según el dispositivo."
+            ],
+            [
+              "Pruebas A/B.",
+              "Comparar variaciones del <em>chatbot</em>.",
+              "Probar dos mensajes de bienvenida con grupos distintos."
+            ],
+            [
+              "Eventos personalizados.",
+              "Activar acciones desde sistemas externos.",
+              "Notificar al usuario cuando llega su pedido."
+            ]
+          ]
+        },
+        {
+          "index": 128,
+          "html": "El uso adecuado de estas opciones puede potenciar la eficacia del <em>chatbot</em>, pero requiere una planificación cuidadosa y, en muchos casos, talento técnico especializado. Las pequeñas y medianas empresas pueden comenzar con configuraciones básicas e incorporar progresivamente funcionalidades avanzadas a medida que aumentan sus necesidades, su madurez técnica y el volumen de uso. Esta aproximación permite evitar complejidad innecesaria al inicio del proyecto y aprovechar el aprendizaje obtenido durante cada etapa."
+        },
+        {
+          "index": 130,
+          "html": "<strong>Gestión y documentación de la configuración</strong>"
+        },
+        {
+          "index": 131,
+          "html": "La configuración del <em>chatbot</em> no termina con su puesta en funcionamiento. Durante su ciclo de vida pueden surgir ajustes, actualizaciones o cambios derivados de los resultados obtenidos, las necesidades del servicio o la incorporación de nuevas funcionalidades. Por ello, es necesario establecer criterios para gestionar las modificaciones y conservar información sobre las decisiones adoptadas."
+        },
+        {
+          "index": 132,
+          "html": "En cuanto a la actualización de la configuración, es importante diferenciar entre cambios menores y cambios mayores:"
+        },
+        {
+          "index": 133,
+          "html": "<strong>Cambios menores</strong>"
+        },
+        {
+          "index": 134,
+          "html": "Corresponden a ajustes en mensajes específicos, modificaciones de tiempos de espera o correcciones ortográficas. Pueden aplicarse directamente al ambiente de producción después de una validación rápida."
+        },
+        {
+          "index": 135,
+          "html": "<strong>Cambios mayores</strong>"
+        },
+        {
+          "index": 136,
+          "html": "Comprenden la incorporación de nuevas intenciones, modificaciones del flujo principal o integración con nuevos sistemas. Requieren pruebas exhaustivas en un ambiente de prueba y revisión antes de su promoción a producción."
+        },
+        {
+          "index": 138,
+          "html": "Esta diferenciación permite mantener la estabilidad del <em>chatbot</em> y, al mismo tiempo, facilitar los ajustes necesarios durante su funcionamiento. Las plataformas profesionales suelen ofrecer mecanismos de control de versiones, que permiten conservar configuraciones anteriores y regresar a una versión estable cuando un cambio introduce problemas inesperados. Esta capacidad de reversión resulta especialmente útil cuando se presentan dificultades después de una actualización."
+        },
+        {
+          "index": 139,
+          "html": "La documentación de la configuración también forma parte de esta gestión. Deben registrarse los valores asignados a los parámetros, las razones de las decisiones tomadas, las modificaciones realizadas y, cuando sea necesario, las fuentes consultadas para fundamentarlas. Esta información facilita el mantenimiento posterior y permite que nuevos integrantes del equipo comprendan la configuración existente."
+        },
+        {
+          "index": 140,
+          "html": "Además, la documentación constituye un insumo importante para el informe técnico final, porque permite disponer de evidencias sobre las configuraciones realizadas, los cambios aplicados y las decisiones tomadas durante el desarrollo del <em>chatbot</em>. De esta manera, el informe no se limita a presentar resultados, sino que puede relacionarlos con el proceso de configuración y ajuste desarrollado."
+        },
+        {
+          "index": 141,
+          "html": "Antes de poner en producción un <em>chatbot</em>, es recomendable realizar una revisión final de los principales elementos configurados. Esta comprobación permite verificar que los parámetros definidos respondan a las condiciones previstas para el funcionamiento del sistema y que los aspectos relacionados con la interacción, la seguridad, los tiempos de respuesta y los canales hayan sido considerados. La siguiente información reúne los aspectos que deben validarse y las preguntas que orientan esta revisión:"
+        },
+        {
+          "index": 145,
+          "table": [
+            [
+              "<strong>Mensaje de bienvenida</strong>",
+              "¿Presenta al <em>chatbot</em>, indica sus capacidades y orienta al usuario sobre cómo proceder?"
+            ],
+            [
+              "<strong>Mensaje de respaldo</strong>",
+              "¿Es empático, no culpa al usuario y ofrece alternativas concretas?"
+            ],
+            [
+              "<strong>Mensaje de despedida</strong>",
+              "¿Cierra la conversación de forma cordial e invita al usuario a regresar?"
+            ],
+            [
+              "<strong>Reglas de escalamiento</strong>",
+              "¿Existe una vía clara para que el usuario hable con un humano cuando lo necesite?"
+            ],
+            [
+              "<strong>Tiempos de espera</strong>",
+              "¿Está configurado un tiempo razonable de inactividad antes de cerrar la sesión?"
+            ],
+            [
+              "<strong>Privacidad de datos</strong>",
+              "¿Se evita pedir información sensible directamente en el chat?"
+            ],
+            [
+              "<strong>Frases de entrenamiento</strong>",
+              "¿Hay al menos 10 a 15 frases por intención, con variaciones realistas?"
+            ],
+            [
+              "<strong>Canales activos</strong>",
+              "¿Están correctamente configurados los canales y sus credenciales?"
+            ]
+          ]
+        },
+        {
+          "index": 147,
+          "html": "La revisión de estos aspectos permite identificar posibles ajustes antes de avanzar a la etapa de verificación del funcionamiento. Así, la configuración queda preparada para las pruebas correspondientes y para documentar posteriormente los resultados, hallazgos y mejoras aplicadas al sistema conversacional."
+        }
+      ]
+    },
+    {
+      "title": "Creación del flujo de conversación",
+      "number": 2,
+      "subs": [
+        {
+          "number": "2.1",
+          "title": "Buenas prácticas de construcción",
+          "hash": "t_2_1"
+        },
+        {
+          "number": "2.2",
+          "title": "Ejemplo integrador para la atención al cliente",
+          "hash": "t_2_2"
+        }
+      ],
+      "source": [
+        {
+          "index": 151,
+          "html": "La creación del flujo de conversación constituye la etapa en la que el diseño previo se lleva a la plataforma seleccionada y se convierte en una secuencia funcional de interacciones. Para comprender este proceso, las siguientes temáticas abordan las buenas prácticas que orientan la construcción del flujo y presentan un ejemplo integrador que permite observar su aplicación en un caso del sector servicios."
+        },
+        {
+          "index": 154,
+          "html": "Un flujo de conversación es la secuencia de mensajes y respuestas que sigue el <em>chatbot</em> durante una sesión con el usuario. Su construcción se realiza, por lo general, mediante un editor visual en el que se enlazan bloques de mensajes, preguntas, condiciones y acciones. La calidad del flujo depende tanto del diseño previo como de la rigurosidad con que se implementen sus diferentes componentes."
+        },
+        {
+          "index": 155,
+          "html": "Durante la construcción del flujo se deben verificar la conexión entre los bloques, la secuencia de las interacciones, las condiciones, las acciones y las variables utilizadas. También es necesario comprobar que cada recorrido conduzca a una respuesta o acción definida y que existan alternativas para los escenarios que no siguen el recorrido esperado."
+        },
+        {
+          "index": 156,
+          "html": "Un patrón recurrente en la construcción de <em>chatbots</em> es la creación iterativa por versiones. La primera versión, conocida como mínimo producto viable, contempla únicamente las 2 o 3 intenciones más relevantes, los flujos esenciales y los mensajes básicos. Esta versión se lanza al público con la conciencia de que es incompleta, pero suficiente para resolver las consultas más frecuentes. Las siguientes versiones incorporan más intenciones, mejores respuestas y nuevas integraciones, basándose en el aprendizaje obtenido del uso real."
+        },
+        {
+          "index": 157,
+          "html": "Esta aproximación iterativa tiene varias ventajas:"
+        },
+        {
+          "index": 158,
+          "html": "Reduce el tiempo desde el inicio del proyecto hasta el primer impacto en el cliente."
+        },
+        {
+          "index": 159,
+          "html": "Permite descubrir tempranamente qué funciona y qué no, antes de invertir grandes recursos en funcionalidades que pueden no ser necesarias."
+        },
+        {
+          "index": 160,
+          "html": "Facilita la apropiación gradual de la herramienta por parte del equipo interno."
+        },
+        {
+          "index": 161,
+          "html": "Y, sobre todo, mantiene el <em>chatbot</em> vivo, en constante evolución, en lugar de convertirlo en un sistema estático que rápidamente queda desactualizado."
+        },
+        {
+          "index": 163,
+          "html": "La construcción del flujo puede desarrollarse de manera progresiva, incorporando mejoras a partir de la experiencia obtenida durante su implementación. La siguiente figura resume las principales etapas de este proceso, desde el diseño previo hasta el desarrollo iterativo del <em>chatbot</em>:"
+        },
+        {
+          "index": 164,
+          "html": "<strong>Figura 1.</strong> Proceso de creación del flujo de <em>chatbot</em>"
+        },
+        {
+          "index": 173,
+          "html": "Para ilustrar la integración de los conceptos abordados, se presenta un caso aplicado al sector de servicios:"
+        },
+        {
+          "index": 175,
+          "html": "Una pequeña empresa de domicilios desea construir un <em>chatbot</em> en WhatsApp que atienda 3 tipos de consultas frecuentes: horarios de atención, menú del día y estado del pedido. La empresa enfrenta un alto volumen de llamadas telefónicas que saturan a su equipo de atención al cliente y considera que un <em>chatbot</em> puede aliviar esta carga sin reducir la calidad del servicio."
+        },
+        {
+          "index": 175,
+          "html": "El proceso de diseño parte de entender al usuario típico: clientes habituales que conocen el producto y desean consultar información rápidamente, sin esperas. La plataforma elegida es Landbot, por su modalidad sin código y su integración con WhatsApp Business, lo que permitiría a la empresa lanzar el <em>chatbot</em> en pocos días sin contratar desarrolladores externos."
+        },
+        {
+          "index": 175,
+          "html": "Las intenciones definidas son consultar el horario, el menú y el estado del pedido. Para atender estas consultas, el <em>chatbot</em> debe identificar y extraer las entidades necesarias, como el número de pedido, cuando se requiera para consultar su estado, y la fecha, cuando aplique. A partir de estas intenciones y entidades, se establece una comunicación cercana, breve y amable, en la que el <em>chatbot</em> se dirige al usuario por su nombre cuando este esté disponible. Esta experiencia se articula alrededor de una personalidad definida como Pipo, el asistente virtual de la pizzería, quien será el encargado de acompañar al usuario durante la interacción."
+        },
+        {
+          "index": 183,
+          "html": "La siguiente tabla resume la configuración aplicada al caso:"
+        },
+        {
+          "index": 185,
+          "html": "<strong>Tabla </strong><strong>2</strong><strong>.</strong> Configuración del caso integrador"
+        },
+        {
+          "index": 186,
+          "table": [
+            [
+              "<strong>Elemento</strong>",
+              "<strong>Configuración del caso</strong>"
+            ],
+            [
+              "Propósito",
+              "Atender las consultas frecuentes de los clientes y descongestionar la línea telefónica."
+            ],
+            [
+              "Plataforma elegida",
+              "Landbot, por su modalidad sin código e integración nativa con WhatsApp Business."
+            ],
+            [
+              "Intenciones",
+              "Consultar horario.<br>Consultar menú.<br>Consultar estado del pedido."
+            ],
+            [
+              "Entidades",
+              "NumeroPedido (numérico), Fecha (cuando aplique)."
+            ],
+            [
+              "Voz y tono",
+              "Cercano, breve, amable. El <em>chatbot</em> trata al usuario por su nombre."
+            ],
+            [
+              "Personalidad",
+              "«Soy Pipo, el asistente virtual de la pizzería»."
+            ],
+            [
+              "Mensaje de bienvenida",
+              "«¡Hola! Soy Pipo. ¿En qué puedo ayudarte hoy?<br>1) Ver el menú.<br>2) Estado de mi pedido.<br>3) Horarios»."
+            ],
+            [
+              "Mensaje de respaldo",
+              "«Disculpa, no entendí tu mensaje. ¿Podrías reformularlo o escribir AGENTE para hablar con una persona?»."
+            ],
+            [
+              "Regla de escalamiento",
+              "Si el usuario escribe AGENTE o el <em>chatbot</em> falla dos veces seguidas, se transfiere al equipo humano."
+            ]
+          ]
+        },
+        {
+          "index": 188,
+          "html": "Con la configuración definida, el equipo de la pizzería puede implementar el flujo y organizar los recorridos correspondientes a cada consulta. La primera versión contempla las funcionalidades esenciales para atender las necesidades más frecuentes y constituye un mínimo producto viable. Una vez construido, el <em>chatbot</em> deberá pasar por la fase de verificación para comprobar su funcionamiento antes de ser puesto en operación."
+        }
+      ]
+    },
+    {
+      "title": "Verificación del funcionamiento del chatbot",
+      "number": 3,
+      "subs": [
+        {
+          "number": "3.1",
+          "title": "Procedimiento de verificación",
+          "hash": "t_3_1"
+        },
+        {
+          "number": "3.2",
+          "title": "Indicadores de desempeño y casos de prueba",
+          "hash": "t_3_2"
+        }
+      ],
+      "source": [
+        {
+          "index": 200,
+          "html": "La verificación del funcionamiento del <em>chatbot</em> es la fase en la que se valida que el sistema responda correctamente a las consultas previstas, manteniendo coherencia, precisión y empatía con el usuario. A continuación, se describen, en primer lugar, el procedimiento general de verificación; en segundo lugar, los indicadores de desempeño y los casos de prueba que permiten medir objetivamente la calidad del <em>chatbot</em> construido."
+        },
+        {
+          "index": 203,
+          "html": "La verificación de un <em>chatbot</em> también conocida como <em>testing</em> conversacional consiste en someter el sistema a un conjunto de pruebas estructuradas que evalúan su comportamiento en distintos escenarios. Su objetivo es detectar errores antes de que el <em>chatbot</em> llegue a los usuarios finales y, de esta forma, evitar fallas que afecten la experiencia y dañen la reputación de la organización."
+        },
+        {
+          "index": 204,
+          "html": "El procedimiento de verificación se compone de cuatro 4 que se ejecutan de manera secuencial:"
+        },
+        {
+          "index": 205,
+          "html": "<strong>Planificación de la verificación</strong>"
+        },
+        {
+          "index": 206,
+          "html": "En esta fase se establecen los objetivos, el alcance y las condiciones bajo las cuales se realizará la verificación. Se determinan los escenarios que deben evaluarse, las funcionalidades que serán objeto de prueba, los criterios de aceptación y los responsables de ejecutar y documentar el proceso."
+        },
+        {
+          "index": 207,
+          "html": "Resultado esperado: plan de pruebas documentado."
+        },
+        {
+          "index": 208,
+          "html": "<strong>Diseño de los casos de prueba</strong>"
+        },
+        {
+          "index": 209,
+          "html": "En esta fase se construyen los casos que permitirán comprobar el comportamiento del <em>chatbot</em> en diferentes situaciones. Se redactan mensajes hipotéticos del usuario, se contemplan variaciones en las consultas y se define la respuesta o comportamiento esperado para cada escenario."
+        },
+        {
+          "index": 210,
+          "html": "Resultado esperado: repositorio de casos de prueba."
+        },
+        {
+          "index": 211,
+          "html": "<strong>Ejecución de las pruebas</strong>"
+        },
+        {
+          "index": 212,
+          "html": "En esta fase se interactúa con el <em>chatbot</em> siguiendo los casos de prueba previamente definidos. Cada resultado se registra y se compara con el comportamiento esperado, identificando respuestas correctas, errores, fallas de interpretación, problemas en el flujo o situaciones que requieran revisión."
+        },
+        {
+          "index": 213,
+          "html": "Resultado esperado: bitácora de ejecución con hallazgos."
+        },
+        {
+          "index": 214,
+          "html": "<strong>Análisis de resultados y ajustes</strong>"
+        },
+        {
+          "index": 215,
+          "html": "En esta fase se revisan los resultados obtenidos durante las pruebas y se clasifican los hallazgos según su importancia. A partir de esta información, se priorizan las correcciones y se establecen los ajustes necesarios para mejorar el funcionamiento, la calidad de las respuestas y la experiencia del usuario."
+        },
+        {
+          "index": 216,
+          "html": "Resultado esperado: informe de hallazgos y plan de ajustes."
+        },
+        {
+          "index": 217,
+          "html": "Para sintetizar los aspectos principales de la verificación de un <em>chatbot</em>, el siguiente esquema resume el proceso de evaluación mediante las 4 fases que permiten identificar errores y establecer acciones de mejora:"
+        },
+        {
+          "index": 224,
+          "html": "<strong>Figura </strong><strong>2</strong><strong>.</strong> Fases del proceso de verificación de un <em>chatbot</em>"
+        },
+        {
+          "index": 227,
+          "html": "Existen diferentes tipos de pruebas que pueden aplicarse a los <em>chatbots</em>, según el aspecto que se busca verificar. Entre las principales se encuentran las siguientes:"
+        },
+        {
+          "index": 229,
+          "html": "<strong>Pruebas funcionales</strong>"
+        },
+        {
+          "index": 230,
+          "html": "Validan que el <em>chatbot</em> ejecute correctamente las acciones esperadas y que cada componente del flujo responda de acuerdo con lo establecido. Permiten comprobar si el sistema comprende las intenciones del usuario, identifica y extrae las entidades necesarias, proporciona respuestas adecuadas y completa correctamente las tareas para las que fue diseñado, como agendar una cita, consultar un saldo, verificar el estado de un pedido o proporcionar información específica. También permiten detectar errores en las conexiones, condiciones, secuencias y acciones que hacen parte del flujo conversacional."
+        },
+        {
+          "index": 231,
+          "html": "<strong>Pruebas de experiencia de usuario</strong>"
+        },
+        {
+          "index": 232,
+          "html": "Evalúan la calidad de la interacción desde la perspectiva de las personas que utilizan el <em>chatbot</em>. Además de verificar que la conversación funcione, permiten valorar aspectos como la naturalidad de los intercambios, el tono y la coherencia de las respuestas, la claridad de las instrucciones, la facilidad para completar una tarea y la capacidad del sistema para orientar al usuario cuando no comprende una solicitud. También consideran la percepción general del usuario, su nivel de satisfacción y posibles dificultades que puedan afectar la experiencia durante la conversación."
+        },
+        {
+          "index": 233,
+          "html": "Una buena práctica es involucrar a usuarios reales en una fase de prueba <em>beta</em> antes del lanzamiento masivo. Estos usuarios, ajenos al equipo de desarrollo, identifican problemas que pasarían desapercibidos para quienes diseñaron el <em>chatbot</em>: malentendidos, ambigüedades, errores no contemplados y oportunidades de mejora. La prueba <em>beta</em> suele durar entre una y dos semanas, con un grupo de 10 a 20 usuarios y aporta información valiosísima sobre el comportamiento del <em>chatbot</em> en el mundo real."
+        },
+        {
+          "index": 234,
+          "html": "<strong>Pruebas de carga </strong>"
+        },
+        {
+          "index": 235,
+          "html": "Se recomienda realizar pruebas de carga cuando se anticipa un alto volumen de uso. Estas pruebas simulan la interacción simultánea de numerosos usuarios para validar que el <em>chatbot</em> mantenga su desempeño bajo presión. Aunque las plataformas modernas suelen escalar automáticamente, conviene comprobar que las integraciones con sistemas externos, como bases de datos, sistemas de gestión de relaciones con clientes y plataformas de pagos, soporten la carga esperada sin degradar la experiencia."
+        },
+        {
+          "index": 236,
+          "html": "<strong>Pruebas exploratorias </strong>"
+        },
+        {
+          "index": 237,
+          "html": "Las pruebas exploratorias son particularmente útiles para los <em>chatbots</em>, ya que permiten a los evaluadores interactuar libremente con el sistema sin seguir un guion predefinido. Su propósito es descubrir comportamientos inesperados o errores que podrían no haber sido contemplados en los casos de prueba estructurados. Este tipo de pruebas suele revelar problemas relacionados con el manejo del lenguaje natural, la transición entre temas y la respuesta del <em>chatbot</em> ante consultas ambiguas."
+        },
+        {
+          "index": 238,
+          "html": "<strong>Documentación de las pruebas</strong>"
+        },
+        {
+          "index": 239,
+          "html": "Como parte del proceso de verificación, es importante documentar los resultados obtenidos en cada caso de prueba. Para ello, se registra si el caso fue aprobado, fallido o inconcluso y, cuando se presentan errores, se describe el comportamiento esperado, el comportamiento observado y, si es posible, la causa probable. Esta información, recopilada en una bitácora de pruebas, facilita el análisis de los hallazgos, la definición de acciones de mejora y la elaboración del informe técnico final."
+        },
+        {
+          "index": 241,
+          "html": "Además del propósito de cada prueba, estas también pueden clasificarse según el momento del proyecto en que se realizan:"
+        },
+        {
+          "index": 242,
+          "html": "<strong>Durante el desarrollo</strong>"
+        },
+        {
+          "index": 243,
+          "html": "El equipo realiza pruebas unitarias que validan cada bloque del flujo de forma aislada."
+        },
+        {
+          "index": 244,
+          "html": "<strong>Antes del lanzamiento</strong>"
+        },
+        {
+          "index": 245,
+          "html": "Se ejecutan pruebas de integración que validan el funcionamiento conjunto de todos los componentes."
+        },
+        {
+          "index": 246,
+          "html": "<strong>Después del lanzamiento</strong>"
+        },
+        {
+          "index": 247,
+          "html": "Se realizan pruebas de regresión cada vez que se introduce un cambio, para garantizar que las funcionalidades previas no se hayan visto afectadas."
+        },
+        {
+          "index": 250,
+          "html": "Para medir objetivamente la calidad del <em>chatbot</em>, se utilizan indicadores clave de desempeño que cuantifican distintos aspectos de su funcionamiento. Estos indicadores deben definirse desde el inicio del proyecto, recogerse sistemáticamente durante la operación y revisarse de forma periódica para orientar las mejoras continuas. La siguiente tabla presenta algunos indicadores de referencia que pueden utilizarse para evaluar el desempeño de un <em>chatbot</em>:"
+        },
+        {
+          "index": 255,
+          "html": "<strong>Tabla </strong><strong>3</strong><strong>.</strong> Indicadores clave de desempeño para <em>chatbots</em>"
+        },
+        {
+          "index": 256,
+          "table": [
+            [
+              "<strong>Indicador</strong>",
+              "<strong>Definición</strong>",
+              "<strong>Referencia orientativa</strong>"
+            ],
+            [
+              "Tasa de comprensión.",
+              "Porcentaje de mensajes del usuario que el <em>chatbot</em> interpreta correctamente.",
+              "Idealmente superior al 80%."
+            ],
+            [
+              "Tasa de finalización exitosa.",
+              "Porcentaje de conversaciones que terminan resolviendo la consulta.",
+              "Idealmente superior al 70%."
+            ],
+            [
+              "Tasa de escalamiento.",
+              "Porcentaje de conversaciones transferidas a agentes humanos.",
+              "Entre 10 % y 25 % según el sector."
+            ],
+            [
+              "Tiempo promedio de conversación.",
+              "Duración media desde el saludo hasta el cierre.",
+              "Entre 1 y 3 minutos para <em>chatbots</em> simples."
+            ],
+            [
+              "Satisfacción del usuario.",
+              "Calificación promedio que los usuarios dan al <em>chatbot</em>.",
+              "Idealmente superior a 4 sobre 5."
+            ],
+            [
+              "Cobertura de intenciones.",
+              "Porcentaje de los temas relevantes que el <em>chatbot</em> atiende.",
+              "Crece progresivamente con cada versión."
+            ]
+          ]
+        },
+        {
+          "index": 258,
+          "html": "Basado en lo anterior, la siguiente imagen presenta un panel de rendimiento de un <em>chatbot</em>, en el que se reúnen diferentes indicadores para evaluar la calidad y efectividad de las conversaciones:"
+        },
+        {
+          "index": 259,
+          "html": "<strong>Figura </strong><strong>3</strong><strong>.</strong> Panel de rendimiento del <em>chatbot</em>"
+        },
+        {
+          "index": 266,
+          "html": "<strong>Casos prueba</strong>"
+        },
+        {
+          "index": 267,
+          "html": "Los casos de prueba son el insumo principal para verificar el funcionamiento del <em>chatbot</em>. Cada caso describe un escenario concreto y la respuesta que el <em>chatbot</em> debería dar en ese escenario. La diversidad de casos es fundamental: deben incluirse no solo los flujos felices —donde todo sale bien— sino también los flujos de excepción donde el usuario se confunde, abandona, escribe con errores ortográficos o aborda temas fuera del alcance del <em>chatbot</em>."
+        },
+        {
+          "index": 268,
+          "html": "Como ejemplos de casos de prueba para un <em>chatbot</em> se tienen los relacionados en la siguiente imagen:"
+        },
+        {
+          "index": 269,
+          "html": "<strong>Figura </strong><strong>4</strong><strong>.</strong> Casos de prueba y respuesta"
+        },
+        {
+          "index": 273,
+          "html": "La cantidad de casos de prueba depende de la complejidad del <em>chatbot</em> y de la diversidad de escenarios que deba atender. Entre las estrategias y técnicas que pueden incorporarse para ampliar y analizar la cobertura de las pruebas se encuentran:"
+        },
+        {
+          "index": 275,
+          "html": "<strong>Cobertura según la complejidad</strong>"
+        },
+        {
+          "index": 276,
+          "html": "Para un <em>chatbot</em> simple con tres intenciones, puede establecerse un conjunto de casos que cubra las situaciones más relevantes, mientras que en soluciones más complejas será necesario ampliar progresivamente la cobertura. La cantidad y variedad de pruebas deben ajustarse a las funcionalidades, los riesgos identificados y los cambios que experimente el sistema."
+        },
+        {
+          "index": 277,
+          "html": "<strong>Matriz de confusión</strong>"
+        },
+        {
+          "index": 278,
+          "html": "Para <em>chatbots</em> con alta variabilidad lingüística, conviene usar técnicas estadísticas como la matriz de confusión. Esta matriz cruza las intenciones detectadas por el <em>chatbot</em> con las intenciones reales de los mensajes, permitiendo identificar dónde el sistema confunde una intención con otra. Por ejemplo, si el <em>chatbot</em> frecuentemente confunde la intención «consultar saldo» con «consultar movimientos», la matriz de confusión lo evidenciará y orientará al equipo sobre dónde reforzar el entrenamiento."
+        },
+        {
+          "index": 279,
+          "html": "<strong>Pruebas A/B</strong>"
+        },
+        {
+          "index": 280,
+          "html": "En proyectos de mayor envergadura, conviene incorporar la práctica de las pruebas A/B. Esta técnica consiste en lanzar dos versiones distintas del <em>chatbot</em> a diferentes grupos de usuarios y comparar los resultados obtenidos por cada una. Las pruebas A/B son particularmente útiles para validar decisiones de diseño cuando el equipo no está seguro sobre cuál opción funcionará mejor. Por ejemplo, si conviene usar un mensaje de bienvenida con 3 opciones o con 5, o si conviene saludar al usuario por su nombre o de manera genérica."
+        },
+        {
+          "index": 281,
+          "html": "Vale la pena destacar que la verificación de un <em>chatbot</em> no es responsabilidad exclusiva del equipo técnico. Los expertos del negocio, quienes conocen a fondo los productos, los servicios y los clientes, deben participar activamente en la definición de los casos de prueba y en la evaluación de los resultados. Su perspectiva complementa la mirada técnica y ayuda a detectar errores que solo se evidencian desde el conocimiento profundo del dominio. Esta colaboración interdisciplinaria es uno de los factores más críticos para el éxito de cualquier proyecto de inteligencia artificial conversacional."
+        },
+        {
+          "index": 282,
+          "html": "La siguiente tabla sintetiza los principales tipos de pruebas aplicables a los <em>chatbots</em>, considerando su propósito y el momento del ciclo de vida en que resultan más pertinentes:"
+        },
+        {
+          "index": 293,
+          "html": "<strong>Tabla </strong><strong>4</strong><strong>.</strong> Tipos de pruebas aplicables a <em>chatbots</em>"
+        },
+        {
+          "index": 294,
+          "table": [
+            [
+              "<strong>Tipo de prueba</strong>",
+              "<strong>Objetivo</strong>",
+              "<strong>Momento de aplicación</strong>"
+            ],
+            [
+              "Pruebas unitarias.",
+              "Validar el funcionamiento de cada bloque del flujo de forma aislada.",
+              "Durante el desarrollo, después de implementar cada bloque."
+            ],
+            [
+              "Pruebas de integración.",
+              "Validar el funcionamiento conjunto de todos los componentes y las integraciones externas.",
+              "Antes del lanzamiento, después de completar la implementación."
+            ],
+            [
+              "Pruebas funcionales.",
+              "Verificar que el <em>chatbot</em> ejecute correctamente las acciones esperadas.",
+              "Antes del lanzamiento y después de cada cambio significativo."
+            ],
+            [
+              "Pruebas de experiencia.",
+              "Evaluar aspectos cualitativos como naturalidad, tono y satisfacción.",
+              "Durante la fase beta y de manera periódica en producción."
+            ],
+            [
+              "Pruebas de carga.",
+              "Validar el desempeño bajo alto volumen de usuarios simultáneos.",
+              "Antes del lanzamiento masivo y antes de eventos de alto tráfico."
+            ],
+            [
+              "Pruebas exploratorias.",
+              "Descubrir comportamientos inesperados o errores no anticipados.",
+              "Durante todo el ciclo, complementando las pruebas estructuradas."
+            ],
+            [
+              "Pruebas de regresión.",
+              "Garantizar que cambios nuevos no rompan funcionalidades previas.",
+              "Después de cada modificación al <em>chatbot</em> ya en producción."
+            ],
+            [
+              "Pruebas A/B.",
+              "Comparar dos versiones distintas para identificar la mejor.",
+              "Cuando hay incertidumbre sobre cuál opción de diseño funciona mejor."
+            ]
+          ]
+        },
+        {
+          "index": 296,
+          "html": "No todos los tipos de pruebas se aplican en todos los proyectos. Para <em>chatbots</em> simples, las pruebas funcionales, de experiencia y exploratorias suelen ser las más relevantes; mientras que las pruebas de carga y A/B son típicamente reservadas para <em>chatbots</em> de mayor envergadura o de uso masivo."
+        },
+        {
+          "index": 297,
+          "html": "La automatización de pruebas cobra relevancia conforme aumenta la complejidad del <em>chatbot</em> y la frecuencia de los cambios. Las plataformas modernas permiten ejecutar conjuntos de casos de prueba de manera programada y generar reportes sobre los resultados, lo que facilita detectar rápidamente errores en funcionalidades previamente validadas. La elección entre pruebas manuales y automatizadas depende del volumen de pruebas, los recursos disponibles y la frecuencia de actualización del <em>chatbot</em>; mientras que las pruebas manuales pueden ser suficientes en proyectos pequeños, la automatización resulta especialmente útil en soluciones de mayor complejidad o con cambios constantes."
+        },
+        {
+          "index": 298,
+          "html": "Otro aspecto a considerar durante la verificación es el manejo de los datos de prueba. Idealmente, las pruebas se ejecutan en un entorno separado del de producción, con datos ficticios que simulen las condiciones reales sin afectar a usuarios o sistemas en operación. Las plataformas profesionales suelen ofrecer entornos diferenciados de desarrollo, prueba y producción, con mecanismos para mover el <em>chatbot</em> entre ellos siguiendo flujos de aprobación. Esta separación protege a los usuarios reales de los errores que puedan aparecer durante las pruebas."
+        },
+        {
+          "index": 302,
+          "html": "Cuando varias personas trabajan en paralelo en el <em>chatbot</em>, también es necesario prever el manejo de los entornos y los cambios. Las plataformas profesionales suelen ofrecer mecanismos de control de cambios que permiten a varios desarrolladores realizar modificaciones sin interferir entre sí. Estos mecanismos incluyen el bloqueo temporal de elementos durante su edición, la fusión automática de cambios cuando son compatibles y el manejo manual de conflictos cuando dos personas modifican el mismo elemento simultáneamente. Una buena gestión de estos mecanismos evita la pérdida de trabajo y mantiene la coherencia de la solución."
+        },
+        {
+          "index": 305,
+          "html": "Adicionalmente, los entornos de prueba deben mantenerse sincronizados con el de producción en cuanto a su configuración técnica. Cualquier diferencia entre los entornos puede generar comportamientos distintos que dificultan la verificación. Por ejemplo, si el entorno de prueba apunta a una base de datos vacía mientras que el de producción tiene millones de registros, los tiempos de respuesta serán distintos y los problemas de rendimiento solo aparecerán en producción. La sincronización adecuada de entornos requiere disciplina técnica, pero ahorra muchos dolores de cabeza posteriores."
+        },
+        {
+          "index": 306,
+          "html": "En cuanto a la duración de las pruebas, no existe una regla universal. Para <em>chatbots</em> simples, el período de pruebas puede ser más corto, mientras que para soluciones más complejas puede extenderse durante varias semanas o incluso meses. La presión por lanzar rápidamente debe equilibrarse con la necesidad de garantizar la calidad: lanzar un <em>chatbot</em> con problemas graves puede causar mayores pérdidas que retrasar el lanzamiento para corregirlos. La decisión final debe tomarse considerando el contexto específico de cada proyecto."
+        }
+      ]
+    },
+    {
+      "title": "Ajuste de los flujos de conversación",
+      "number": 4,
+      "subs": [
+        {
+          "number": "4.1",
+          "title": "Análisis de hallazgos y priorización",
+          "hash": "t_4_1"
+        },
+        {
+          "number": "4.2",
+          "title": "Iteración y mejora continua del chatbot",
+          "hash": "t_4_2"
+        }
+      ],
+      "source": [
+        {
+          "index": 309,
+          "html": "Una vez completada la fase de verificación, los hallazgos identificados deben traducirse en ajustes concretos al flujo conversacional. Para ello, las siguientes temáticas abordan el análisis de los hallazgos de las pruebas y la priorización de las correcciones, junto con la mejora continua como estrategia para mantener el <em>chatbot</em> relevante y útil a lo largo del tiempo."
+        },
+        {
+          "index": 312,
+          "html": "Los hallazgos obtenidos durante la verificación son de naturaleza diversa:"
+        },
+        {
+          "index": 313,
+          "html": "Errores de comprensión."
+        },
+        {
+          "index": 314,
+          "html": "Respuestas incorrectas."
+        },
+        {
+          "index": 315,
+          "html": "Mensajes confusos."
+        },
+        {
+          "index": 316,
+          "html": "Flujos rotos."
+        },
+        {
+          "index": 317,
+          "html": "Integraciones que fallan."
+        },
+        {
+          "index": 318,
+          "html": "Oportunidades de mejora en la experiencia del usuario."
+        },
+        {
+          "index": 319,
+          "html": "Una clasificación útil distingue entre:"
+        },
+        {
+          "index": 319,
+          "html": "No todos los hallazgos tienen la misma importancia ni el mismo impacto, por lo que es necesario clasificarlos y priorizarlos para orientar el trabajo del equipo."
+        },
+        {
+          "index": 320,
+          "html": "<strong>Hallazgos </strong><strong>críticos</strong>"
+        },
+        {
+          "index": 321,
+          "html": "Impiden que el <em>chatbot</em> cumpla su propósito principal o ponen en riesgo a los usuarios; deben corregirse antes del lanzamiento."
+        },
+        {
+          "index": 322,
+          "html": "Acción recomendada: corregir antes del lanzamiento; bloquea la salida a producción."
+        },
+        {
+          "index": 323,
+          "html": "<strong>Hallazgos </strong><strong>mayores</strong>"
+        },
+        {
+          "index": 324,
+          "html": "Afectan significativamente la experiencia o la precisión, pero no impiden el funcionamiento básico; deben corregirse en la versión inicial siempre que el cronograma lo permita."
+        },
+        {
+          "index": 325,
+          "html": "Acción recomendada: corregir en la versión inicial si el cronograma lo permite."
+        },
+        {
+          "index": 326,
+          "html": "<strong>Hallazgos </strong><strong>menores</strong>"
+        },
+        {
+          "index": 327,
+          "html": "Son mejoras estéticas o ajustes finos que no afectan la funcionalidad esencial, pero pueden mejorar la experiencia del usuario. Pueden incorporarse en versiones posteriores."
+        },
+        {
+          "index": 328,
+          "html": "Acción recomendada: programar en versiones posteriores como mejora continua."
+        },
+        {
+          "index": 329,
+          "html": "La siguiente imagen representa de manera jerárquica estos hallazgos:"
+        },
+        {
+          "index": 330,
+          "html": "<strong>Figura 5. </strong>Jerarquía de prioridad de hallazgos o errores"
+        },
+        {
+          "index": 332,
+          "html": "La priorización también puede apoyarse en otros criterios: la frecuencia con que ocurre el problema, el número de usuarios afectados, el impacto en los indicadores de negocio y el costo de la corrección. Una matriz que combine impacto y esfuerzo ayuda al equipo a tomar decisiones informadas: las correcciones de alto impacto y bajo esfuerzo se ejecutan primero; las de alto impacto y alto esfuerzo se planifican cuidadosamente; las de bajo impacto y alto esfuerzo se posponen."
+        },
+        {
+          "index": 334,
+          "html": "Cada ajuste aplicado al <em>chatbot</em> debe documentarse adecuadamente. La documentación incluye la descripción del problema original, la causa identificada, la solución implementada y la prueba que valida la corrección. Esta documentación, además de servir como bitácora del proyecto, facilita el aprendizaje del equipo y reduce la probabilidad de que el mismo error vuelva a ocurrir en el futuro."
+        },
+        {
+          "index": 335,
+          "html": "Existen tipos específicos de ajustes que se aplican con frecuencia en proyectos de <em>chatbot</em>. La siguiente tabla explica un poco cada uno y los ejemplifica para mayor entendimiento:"
+        },
+        {
+          "index": 336,
+          "html": "<strong>Tabla </strong><strong>5</strong><strong>.</strong> Tipos de ajustes frecuentes en <em>chatbots</em> y ejemplos de aplicación"
+        },
+        {
+          "index": 337,
+          "table": [
+            [
+              "<strong>Tipo de ajuste</strong>",
+              "<strong>Descripción</strong>",
+              "<strong>Ejemplo</strong>"
+            ],
+            [
+              "Ajuste de comprensión.",
+              "Modifica frases de entrenamiento o palabras clave para mejorar el reconocimiento.",
+              "Agregar variaciones como «cuánto debo» a la intención de consulta de saldo."
+            ],
+            [
+              "Ajuste de respuesta.",
+              "Corrige el contenido o el tono de los mensajes del <em>chatbot</em>.",
+              "Hacer más empática la respuesta cuando el usuario reporta un problema."
+            ],
+            [
+              "Ajuste de flujo.",
+              "Modifica la secuencia de pasos en una conversación.",
+              "Mover la confirmación del pedido antes de tomar el método de pago."
+            ],
+            [
+              "Ajuste de configuración.",
+              "Cambia parámetros generales como tiempos de espera.",
+              "Aumentar el tiempo de espera de 5 a 10 minutos."
+            ],
+            [
+              "Ajuste de integración.",
+              "Corrige problemas en la conexión con sistemas externos.",
+              "Manejar el caso en que la base de datos no responde dentro del tiempo esperado."
+            ]
+          ]
+        },
+        {
+          "index": 340,
+          "html": "El ajuste no termina con el lanzamiento del <em>chatbot</em>. La mejora continua es una práctica que se mantiene durante toda la vida útil del sistema, garantizando que se adapte a las necesidades cambiantes de los usuarios y del negocio. Esta práctica se basa en ciclos cortos de medición, análisis y ajuste, conocidos en la industria como ciclos de iteración."
+        },
+        {
+          "index": 341,
+          "html": "Un enfoque popular para la mejora continua es el ciclo <em>plan-do-</em><em>check</em><em>-</em><em>act</em>, adaptado al contexto de los <em>chatbots</em>. Cada fase representa lo siguiente:"
+        },
+        {
+          "index": 344,
+          "html": "<strong>Plan</strong>"
+        },
+        {
+          "index": 345,
+          "html": "En la fase de planificación, el equipo identifica oportunidades de mejora a partir de los datos disponibles."
+        },
+        {
+          "index": 346,
+          "html": "<strong>Do</strong>"
+        },
+        {
+          "index": 347,
+          "html": "En la fase de ejecución, aplica los cambios seleccionados en un entorno de pruebas."
+        },
+        {
+          "index": 348,
+          "html": "<strong>Check</strong>"
+        },
+        {
+          "index": 349,
+          "html": "En la fase de verificación, mide el impacto de los cambios en los indicadores de desempeño."
+        },
+        {
+          "index": 350,
+          "html": "<strong>Act</strong>"
+        },
+        {
+          "index": 351,
+          "html": "En la fase de actuación, decide si los cambios se promueven al entorno de producción o si requieren ajustes adicionales."
+        },
+        {
+          "index": 352,
+          "html": "La mejora continua se alimenta de diversas fuentes de información que permiten identificar patrones, detectar oportunidades de optimización y orientar los ajustes del <em>chatbot</em>. El análisis conjunto de estos datos facilita una visión más completa de su funcionamiento y de las necesidades de los usuarios."
+        },
+        {
+          "index": 353,
+          "html": "La siguiente tabla sintetiza las principales fuentes de información para la mejora continua del <em>chatbot</em> y su utilidad en la identificación de oportunidades de ajuste:"
+        },
+        {
+          "index": 354,
+          "html": "<strong>Tabla </strong><strong>6</strong><strong>. </strong>Fuentes de información para la mejora continua del <em>chatbot</em>"
+        },
+        {
+          "index": 355,
+          "table": [
+            [
+              "<strong>Fuente</strong>",
+              "<strong>Descripción</strong>",
+              "<strong>Uso recomendado</strong>"
+            ],
+            [
+              "Registros de conversación.",
+              "Histórico de mensajes intercambiados entre usuarios y <em>chatbot</em>.",
+              "Identificar consultas no atendidas y patrones de uso."
+            ],
+            [
+              "Indicadores de desempeño.",
+              "Métricas cuantitativas como tasa de comprensión y satisfacción.",
+              "Detectar deterioros tempranos y orientar prioridades."
+            ],
+            [
+              "Retroalimentación del usuario.",
+              "Encuestas breves al cierre de la conversación.",
+              "Capturar la percepción cualitativa del usuario."
+            ],
+            [
+              "Reportes de agentes humanos.",
+              "Observaciones del equipo que recibe los escalamientos.",
+              "Identificar temas que el <em>chatbot</em> no resuelve adecuadamente."
+            ],
+            [
+              "Análisis de temas emergentes.",
+              "Detección de nuevas consultas que aparecen con frecuencia.",
+              "Incorporar nuevas intenciones a la versión siguiente."
+            ]
+          ]
+        },
+        {
+          "index": 357,
+          "html": "La mejora continua requiere acciones sistemáticas que permitan revisar el funcionamiento del chatbot, responder a los cambios, conservar los aprendizajes y fortalecer las capacidades del equipo. Estos aspectos se desarrollan a continuación:"
+        },
+        {
+          "index": 358,
+          "html": "<strong>Revisión periódica</strong>"
+        },
+        {
+          "index": 359,
+          "html": "Conviene establecer una cadencia regular para revisar el <em>chatbot</em>. La frecuencia de estas revisiones debe ajustarse al volumen de uso, la frecuencia de los cambios en el negocio y los resultados obtenidos. Cada revisión genera un conjunto de ajustes que se priorizan, ejecutan y verifican antes de promoverlos al entorno productivo. Esta disciplina garantiza que el <em>chatbot</em> mantenga su utilidad y siga aportando valor a la organización a lo largo del tiempo."
+        },
+        {
+          "index": 362,
+          "html": "<strong>Revisión por eventos</strong>"
+        },
+        {
+          "index": 363,
+          "html": "La revisión periódica del <em>chatbot</em> debe complementarse con la revisión por eventos. Cuando ocurren cambios significativos en el negocio, como el lanzamiento de un nuevo producto, la modificación de procesos, cambios regulatorios o reestructuraciones internas, el <em>chatbot</em> debe ajustarse de inmediato para reflejar estos cambios. La falta de actualización oportuna puede llevar al <em>chatbot</em> a entregar información desactualizada o incorrecta, dañando la credibilidad de la organización ante sus usuarios."
+        },
+        {
+          "index": 365,
+          "html": "<strong>Gestión del conocimiento</strong>"
+        },
+        {
+          "index": 366,
+          "html": "Las lecciones aprendidas durante el proceso de ajuste deben capturarse en una base de conocimiento que pueda consultarse en proyectos futuros. Esta base de conocimiento incluye los problemas más frecuentes encontrados, las soluciones aplicadas, las técnicas que funcionaron y las que no, y las decisiones de diseño que se demostraron acertadas. Su existencia acelera significativamente el desarrollo de <em>chatbots</em> posteriores y reduce la probabilidad de repetir errores ya cometidos."
+        },
+        {
+          "index": 368,
+          "html": "<strong>Indicadores de mejora</strong>"
+        },
+        {
+          "index": 369,
+          "html": "Más allá de los indicadores de desempeño del <em>chatbot</em>, conviene monitorear indicadores propios del proceso de mejora: número de ajustes implementados por mes, tiempo promedio entre la detección de un hallazgo y su corrección, porcentaje de hallazgos resueltos en cada ciclo e impacto medible de cada ajuste en los indicadores principales. Estos metaindicadores permiten optimizar el proceso de mejora en sí mismo."
+        },
+        {
+          "index": 371,
+          "html": "<strong>Formación del equipo</strong>"
+        },
+        {
+          "index": 372,
+          "html": "A medida que el <em>chatbot</em> evoluciona, el equipo debe mantener actualizadas sus competencias técnicas y procedimentales. Esto puede lograrse mediante capacitaciones periódicas, certificaciones en las plataformas utilizadas, asistencia a eventos del sector y participación en comunidades de práctica. Un equipo bien formado aplica las mejores prácticas de la industria y produce <em>chatbots</em> de mayor calidad."
+        },
+        {
+          "index": 373,
+          "html": "En proyectos exitosos de <em>chatbots</em>, se observan algunos patrones recurrentes que pueden orientar a los aprendices:"
+        },
+        {
+          "index": 374,
+          "html": "<strong>Primero</strong>, el compromiso de la alta dirección con el proyecto: cuando los líderes de la organización valoran y respaldan la iniciativa, los recursos fluyen y los obstáculos se superan más fácilmente."
+        },
+        {
+          "index": 375,
+          "html": "<strong>Segundo</strong>, la formación de equipos interdisciplinarios que incluyen representantes del área técnica, del negocio, de servicio al cliente y de mercadeo."
+        },
+        {
+          "index": 376,
+          "html": "<strong>Tercero</strong>, el enfoque iterativo, comenzando con un alcance reducido y expandiéndolo progresivamente con base en los aprendizajes."
+        },
+        {
+          "index": 377,
+          "html": "<strong>Cuarto</strong>, la cultura de medición, donde las decisiones se toman a partir de datos objetivos y no de intuiciones."
+        },
+        {
+          "index": 378,
+          "html": "La incorporación de <em>chatbots</em> puede generar beneficios como la reducción de consultas repetitivas, una atención más disponible, el aumento de la capacidad del equipo para atender casos complejos y una mejor recopilación de información sobre las necesidades de los usuarios. Estos resultados dependen de factores como el diseño de la solución, el volumen de uso, la calidad de las integraciones y el seguimiento posterior al lanzamiento."
+        },
+        {
+          "index": 379,
+          "html": "Sin embargo, los proyectos de <em>chatbot</em> pueden enfrentar dificultades cuando no existe claridad sobre el problema que se busca resolver, las expectativas de los equipos están desalineadas, el alcance inicial es demasiado amplio, los datos de entrenamiento son insuficientes o no se realizan pruebas y seguimiento adecuados. Reconocer estas situaciones permite anticiparlas y establecer acciones preventivas durante el desarrollo y la evolución del <em>chatbot</em>."
+        },
+        {
+          "index": 380,
+          "html": "Los <em>chatbots</em> tienen aplicaciones en diversos sectores, entre ellos la banca, las telecomunicaciones, el comercio electrónico, la salud, la educación, el gobierno digital, el turismo y la manufactura. Sus usos pueden abarcar la atención de consultas, el soporte, el seguimiento de solicitudes, la orientación de usuarios y la gestión de procesos, de acuerdo con las necesidades y características de cada sector."
+        },
+        {
+          "index": 381,
+          "html": "A continuación, se ejemplifica un poco este proceso:"
+        },
+        {
+          "index": 384,
+          "table": [
+            [
+              "<strong>Banca y finanzas</strong><br><strong>Alto</strong>",
+              "Consulta de saldo, transferencias, bloqueo de tarjetas."
+            ],
+            [
+              "<strong>Telecomunicaciones</strong><br><strong>Alto</strong>",
+              "Soporte técnico, consulta de planes, recargas."
+            ],
+            [
+              "<strong>Comercio electrónico</strong><br><strong>Medio-alto</strong>",
+              "Recomendación de productos, seguimiento de pedidos."
+            ],
+            [
+              "<strong>Salud</strong><br><strong>Medio</strong>",
+              "Agendamiento de citas, recordatorios, primer <em>triaje</em>."
+            ],
+            [
+              "<strong>Educación</strong><br><strong>Medio</strong>",
+              "Resolución de dudas, soporte a estudiantes."
+            ],
+            [
+              "<strong>Gobierno digital</strong><br><strong>Medio-bajo</strong>",
+              "Información ciudadana, orientación de trámites."
+            ],
+            [
+              "<strong>Turismo y hospitalidad</strong><br><strong>Medio-bajo</strong>",
+              "Reservas, recomendaciones, atención multilingüe."
+            ],
+            [
+              "<strong>Manufactura y agro</strong><br><strong>Bajo</strong>",
+              "Soporte interno, atención a distribuidores."
+            ]
+          ]
+        },
+        {
+          "index": 386,
+          "html": "Hay que aclarar que no todos los proyectos de <em>chatbot</em> terminan exitosamente. Los casos de fracaso suelen tener causas comunes:"
+        },
+        {
+          "index": 387,
+          "html": "Falta de claridad sobre el problema a resolver."
+        },
+        {
+          "index": 388,
+          "html": "Expectativas desalineadas entre los equipos."
+        },
+        {
+          "index": 389,
+          "html": "Alcance excesivo en la primera versión."
+        },
+        {
+          "index": 390,
+          "html": "Datos de entrenamiento insuficientes."
+        },
+        {
+          "index": 391,
+          "html": "Falta de pruebas adecuadas o ausencia de seguimiento posterior al lanzamiento."
+        },
+        {
+          "index": 392,
+          "html": "Comprender estas causas ayuda a los aprendices a anticiparlas y prevenirlas en sus propios proyectos. La experiencia muestra que los proyectos de <em>chatbot</em> que aplican rigurosamente las prácticas aquí presentadas tienen significativamente más probabilidades de éxito que aquellos que las descuidan."
+        }
+      ]
+    },
+    {
+      "title": "Concepto y características del informe técnico",
+      "number": 5,
+      "subs": [
+        {
+          "number": "5.1",
+          "title": "Estructura y contenido del informe del chatbot",
+          "hash": "t_5_1"
+        }
+      ],
+      "source": [
+        {
+          "index": 395,
+          "html": "El informe técnico del <em>chatbot</em> es el documento que registra de manera ordenada el proceso de configuración, construcción, verificación y ajuste del sistema conversacional. Su propósito es presentar las actividades realizadas, los resultados obtenidos, los hallazgos identificados, las correcciones aplicadas y las evidencias que permiten verificar el trabajo desarrollado."
+        },
+        {
+          "index": 396,
+          "html": "Las características principales de un buen informe técnico son la claridad, la objetividad, la concisión, la precisión y la trazabilidad. Estas permiten presentar la información de manera comprensible, verificable, directa, exacta y respaldada por evidencias. La siguiente tabla sintetiza estas características y muestra su aplicación en la elaboración del informe:"
+        },
+        {
+          "index": 405,
+          "html": "<strong>Tabla </strong><strong>7</strong><strong>.</strong> Características de un buen informe técnico"
+        },
+        {
+          "index": 406,
+          "table": [
+            [
+              "<strong>Característica</strong>",
+              "<strong>Descripción</strong>",
+              "<strong>Ejemplo de aplicación</strong>"
+            ],
+            [
+              "Claridad.",
+              "Permite que cualquier lector con la formación adecuada comprenda el contenido sin esfuerzo excesivo, mediante lenguaje sencillo, estructura lógica y vocabulario adecuado al público.",
+              "Definir términos técnicos al introducirlos por primera vez."
+            ],
+            [
+              "Objetividad.",
+              "Exige respaldar las afirmaciones con datos verificables y evitar opiniones subjetivas, de manera que la información presentada pueda ser comprobada.",
+              "Reportar la tasa de comprensión con cifras exactas y la fuente de los datos."
+            ],
+            [
+              "Concisión.",
+              "Consiste en presentar la información necesaria de forma directa, evitando redundancias o repeticiones que dificulten la lectura.",
+              "Evitar repetir el mismo argumento en distintas secciones del informe."
+            ],
+            [
+              "Precisión.",
+              "Requiere que los datos numéricos, fechas, nombres y conceptos sean exactos y correspondan con la información disponible.",
+              "Verificar que las cifras coincidan con los reportes de la plataforma."
+            ],
+            [
+              "Trazabilidad.",
+              "Garantiza que las afirmaciones y resultados puedan rastrearse hasta las fuentes o evidencias que los respaldan.",
+              "Citar la bitácora de pruebas como soporte de los hallazgos reportados."
+            ]
+          ]
+        },
+        {
+          "index": 408,
+          "html": "Además de estas características, el informe debe presentar la información de manera completa y organizada. La estructura visual, la ortografía, la selección de gráficos y la presentación general contribuyen a facilitar la lectura y respaldar la credibilidad del documento."
+        },
+        {
+          "index": 409,
+          "html": "En cuanto al estilo de redacción, el informe técnico se redacta en tercera persona, con un tono neutro y profesional. Se evita el uso de la primera persona tanto del singular como del plural porque desplaza el foco del trabajo al autor. Por ejemplo:"
+        },
+        {
+          "index": 410,
+          "diagram": "Se prefiere «se implementó el chatbot»."
+        },
+        {
+          "index": 410,
+          "diagram": "En lugar de escribir «implementamos el chatbot»."
+        },
+        {
+          "index": 411,
+          "html": "Esta convención no es absoluta y algunas organizaciones permiten variaciones, pero la tercera persona impersonal es la opción más segura para informes técnicos formales en el contexto profesional colombiano."
+        },
+        {
+          "index": 412,
+          "html": "Las normas técnicas y los estilos de citación proporcionan orientaciones para presentar documentos profesionales de manera organizada. Según el contexto del proyecto, pueden considerarse referentes como las normas técnicas colombianas y las normas APA para la presentación y citación de fuentes."
+        },
+        {
+          "index": 413,
+          "html": "Otro aspecto fundamental del informe técnico es la sección de evidencias y soportes. Esta sección, ubicada generalmente al final del documento, incluye todos los materiales que respaldan las afirmaciones realizadas a lo largo del informe. Entre estos materiales se encuentran capturas de pantalla del <em>chatbot</em> funcionando en distintos canales, diagramas del flujo conversacional construido, fragmentos de código de configuración, registros de las pruebas ejecutadas con sus resultados, gráficos con la evolución de los indicadores de desempeño y, cuando aplique, citas de retroalimentación recibida de usuarios reales."
+        },
+        {
+          "index": 414,
+          "html": "La presentación de las evidencias debe ser cuidadosa. Cada elemento incluido debe estar correctamente referenciado desde el cuerpo del informe para que el lector pueda consultarlo en el momento adecuado. Las capturas de pantalla deben ser legibles y enfocadas en lo que se quiere mostrar, evitando incluir información irrelevante o sensible. Los gráficos deben tener leyendas claras y unidades de medida explícitas. Los fragmentos de código deben presentarse con tipografía monoespaciada y, cuando sea extenso, con resaltado de sintaxis para facilitar la lectura."
+        },
+        {
+          "index": 415,
+          "html": "Cuando el informe técnico se entrega a una audiencia diversa, por ejemplo, una combinación de directivos, personal técnico y usuarios finales, conviene adaptar la información a las necesidades de cada grupo. Para ello, pueden elaborarse versiones diferenciadas:"
+        },
+        {
+          "index": 416,
+          "html": "<strong>Versión ejecutiva</strong>"
+        },
+        {
+          "index": 417,
+          "html": "Presenta de manera breve los principales resultados del proyecto, los indicadores de desempeño, los beneficios obtenidos y las decisiones que requieren atención. Está dirigida a directivos y responsables de la toma de decisiones que necesitan una visión general sin profundizar en los detalles técnicos."
+        },
+        {
+          "index": 418,
+          "html": "<strong>Versión técnica</strong>"
+        },
+        {
+          "index": 419,
+          "html": "Desarrolla con mayor profundidad los aspectos relacionados con la configuración, construcción, verificación y ajuste del <em>chatbot</em>. Incluye detalles de implementación, pruebas realizadas, hallazgos, correcciones, integraciones y demás información necesaria para que el equipo técnico pueda mantener o continuar el proyecto."
+        },
+        {
+          "index": 420,
+          "html": "<strong>Versión orientada al usuario</strong>"
+        },
+        {
+          "index": 421,
+          "html": "Utiliza un lenguaje más accesible y reduce el uso de términos especializados. Se enfoca en explicar los cambios incorporados, las funcionalidades disponibles, las mejoras realizadas y las indicaciones necesarias para comprender o utilizar adecuadamente el <em>chatbot</em>."
+        },
+        {
+          "index": 422,
+          "html": "Estas versiones pueden complementarse con otras modalidades de presentación cuando las características del proyecto lo requieran. La siguiente tabla relaciona las principales audiencias con la versión recomendada y el énfasis de la información que debe presentarse en cada caso:"
+        },
+        {
+          "index": 432,
+          "html": "<strong>Tabla </strong><strong>8</strong><strong>.</strong> Versiones diferenciadas del informe técnico según la audiencia"
+        },
+        {
+          "index": 433,
+          "table": [
+            [
+              "<strong>Audiencia</strong>",
+              "<strong>Versión recomendada</strong>",
+              "<strong>Énfasis principal</strong>"
+            ],
+            [
+              "Directivos.",
+              "Versión ejecutiva (5-10 páginas).",
+              "Resultados de negocio, indicadores clave, retorno de inversión."
+            ],
+            [
+              "Equipo técnico.",
+              "Versión completa (30+ páginas).",
+              "Detalles de configuración, código, pruebas, hallazgos y ajustes."
+            ],
+            [
+              "Usuarios finales.",
+              "Versión orientada al usuario (1-3 páginas).",
+              "Cambios visibles, mejoras incorporadas, instrucciones de uso."
+            ],
+            [
+              "Auditoría.",
+              "Versión completa con anexos extendidos.",
+              "Cumplimiento normativo, trazabilidad, evidencias documentales."
+            ]
+          ]
+        },
+        {
+          "index": 435,
+          "html": "La elaboración de versiones diferenciadas no implica redactar 3 documentos completamente distintos. En la práctica, se mantiene un documento maestro completo del que se derivan las distintas versiones, según las necesidades de cada audiencia. Esta aproximación garantiza la consistencia de la información y facilita el mantenimiento del documento a lo largo del proyecto."
+        },
+        {
+          "index": 436,
+          "html": "Los apoyos visuales, como tablas, gráficos, capturas de pantalla y diagramas, deben incorporarse cuando aporten información relevante. Cada elemento debe estar correctamente numerado, titulado y relacionado con una explicación que oriente al lector sobre su propósito."
+        },
+        {
+          "index": 439,
+          "html": "La estructura de un informe técnico de <em>chatbot</em> se adapta a las necesidades del proyecto, pero suele incluir las siguientes 9 secciones estándar que aseguran cubrir los aspectos esenciales. Esta estructura es ampliamente aceptada en la industria y facilita que distintos lectores encuentren rápidamente la información que necesitan:"
+        },
+        {
+          "index": 440,
+          "html": "Título, autor, organización, fecha y versión.",
+          "heading": "Portada"
+        },
+        {
+          "index": 440,
+          "html": "Síntesis del proyecto, hallazgos clave y conclusiones.",
+          "heading": "Resumen Ejecutivo"
+        },
+        {
+          "index": 440,
+          "html": "Contexto del proyecto, problema abordado, objetivos y alcance.",
+          "heading": "Introducción"
+        },
+        {
+          "index": 440,
+          "html": "Plataforma utilizada, intenciones definidas, casos de prueba aplicados.",
+          "heading": "Metodología"
+        },
+        {
+          "index": 440,
+          "html": "Descripción detallada de la configuración, creación del flujo y verificación.",
+          "heading": "Desarrollo"
+        },
+        {
+          "index": 440,
+          "html": "Datos cuantitativos: indicadores, tasas, casos exitosos y fallidos.",
+          "heading": "Resultados"
+        },
+        {
+          "index": 440,
+          "html": "Lista de hallazgos clasificados, ajustes aplicados y validación.",
+          "heading": "Hallazgos y ajustes"
+        },
+        {
+          "index": 440,
+          "html": "Aprendizajes principales y propuestas de evolución del chatbot.",
+          "heading": "Conclusiones y recomendaciones"
+        },
+        {
+          "index": 440,
+          "html": "Capturas de pantalla, bitácora de pruebas, código de configuración y referencias.",
+          "heading": "Anexos"
+        },
+        {
+          "index": 441,
+          "html": "Cada sección cumple un propósito específico. La portada y el resumen ejecutivo permiten al lector identificar rápidamente el documento y comprender sus puntos clave en pocos minutos. La introducción contextualiza el proyecto y aclara qué problema se abordó. La metodología y el desarrollo explican cómo se construyó la solución, permitiendo a otros equipos replicar el trabajo o continuarlo. Los resultados presentan datos objetivos sobre el desempeño del <em>chatbot</em>. Los hallazgos y ajustes documentan las correcciones aplicadas. Las conclusiones y recomendaciones cierran el documento con aprendizajes útiles para el futuro. Los anexos proporcionan evidencia adicional para quienes desean profundizar."
+        },
+        {
+          "index": 442,
+          "html": "El informe debe presentar los resultados de los indicadores definidos para evaluar el desempeño del <em>chatbot</em>, acompañados de datos que permitan interpretar objetivamente su desempeño."
+        },
+        {
+          "index": 443,
+          "html": "Las recomendaciones para versiones posteriores deben derivarse de los resultados y hallazgos identificados durante la verificación. Estas pueden orientarse a corregir problemas pendientes, ampliar funcionalidades, mejorar el flujo conversacional o incorporar ajustes que contribuyan al funcionamiento del <em>chatbot</em>. Recomendaciones típicas incluyen ampliar las intenciones del <em>chatbot</em>, integrar nuevas plataformas, mejorar la voz y el tono según retroalimentación recibida o automatizar procesos adicionales que actualmente requieren intervención humana."
+        },
+        {
+          "index": 444,
+          "html": "Una buena práctica al elaborar el informe técnico es someterlo a revisión por pares antes de su entrega final. Otro miembro del equipo, ajeno a la redacción del documento, puede identificar errores de claridad, lagunas en la información o aspectos que no se explican adecuadamente. Esta revisión, aunque parece añadir trabajo, ahorra tiempo posterior al evitar que el lector final encuentre problemas que pudieron haberse corregido antes."
+        },
+        {
+          "index": 445,
+          "html": "Adicionalmente, el informe técnico debe incluir una sección de control de versiones que registre las modificaciones realizadas a lo largo del tiempo. Cada versión debe identificar el autor del cambio, la fecha de modificación y un resumen de las modificaciones aplicadas. Este control de versiones es especialmente importante cuando el informe se actualiza periódicamente o cuando varias personas contribuyen a su elaboración."
+        },
+        {
+          "index": 446,
+          "html": "En proyectos dirigidos al sector público pueden requerirse apartados adicionales relacionados con el cumplimiento normativo, especialmente cuando se gestionan datos personales o información de carácter institucional."
+        },
+        {
+          "index": 447,
+          "html": "En síntesis, el campo de los <em>chatbots</em> y la inteligencia artificial conversacional se encuentra en plena expansión. Las tendencias descritas anticipan un futuro donde la conversación máquina-humano será aún más fluida, multimodal y personalizada de lo que ya es hoy."
+        },
+        {
+          "index": 448,
+          "html": "Adicionalmente, conviene reconocer que cada organización tiene su propio contexto, su cultura y sus restricciones específicas. Las recomendaciones generales presentadas deben adaptarse al contexto particular de cada proyecto. Lo que funciona en una gran empresa bancaria puede no aplicar a una pequeña empresa familiar; lo que es viable en una empresa de tecnología puede no serlo en una entidad pública con procesos rígidos. La capacidad para adaptar las prácticas a cada contexto es uno de los rasgos que distinguen a los profesionales experimentados de quienes están comenzando."
+        },
+        {
+          "index": 449,
+          "html": "Los saberes técnicos sobre configuración, creación, verificación, ajuste y documentación de <em>chatbots</em> tienen aplicación inmediata en distintos contextos productivos:"
+        },
+        {
+          "index": 450,
+          "html": "<strong>Atención al cliente</strong>"
+        },
+        {
+          "index": 451,
+          "html": "Estas competencias permiten construir y mantener asistentes virtuales para responder preguntas frecuentes, atender consultas habituales y derivar casos complejos a un agente humano. Para ello, se requieren conocimientos de diseño conversacional, redacción clara y comprensión del negocio."
+        },
+        {
+          "index": 452,
+          "html": "<strong>Comercio electrónico</strong>"
+        },
+        {
+          "index": 453,
+          "html": "Los <em>chatbots</em> pueden apoyar procesos de venta y postventa mediante recomendaciones de productos, seguimiento de pedidos y gestión de devoluciones. Su implementación requiere conocimientos de integración con sistemas de comercio, análisis del proceso de compra y <em>marketing</em> conversacional."
+        },
+        {
+          "index": 454,
+          "html": "<strong>Salud</strong>"
+        },
+        {
+          "index": 455,
+          "html": "Los saberes adquiridos pueden aplicarse en soluciones para agendamiento de citas, recordatorios e información médica básica. En este contexto, es necesario considerar los protocolos correspondientes, el manejo de datos sensibles y la validación de los contenidos con personal especializado."
+        },
+        {
+          "index": 456,
+          "html": "<strong>Sector educativo</strong>"
+        },
+        {
+          "index": 457,
+          "html": "Los <em>chatbots</em> pueden apoyar procesos académicos y administrativos, resolver dudas frecuentes y facilitar el acceso a información para los estudiantes. Su desarrollo requiere conocimientos de diseño pedagógico, redacción didáctica y manejo de plataformas de aprendizaje."
+        },
+        {
+          "index": 458,
+          "html": "<strong>Gobierno digital</strong>"
+        },
+        {
+          "index": 459,
+          "html": "Contribuyen a acercar el Estado a la ciudadanía mediante soluciones para trámites, consultas y orientación sobre servicios. En este ámbito, son necesarias competencias relacionadas con el cumplimiento normativo, la accesibilidad y el uso de lenguaje claro."
+        },
+        {
+          "index": 461,
+          "html": "<strong>Emprendimiento propio</strong>"
+        },
+        {
+          "index": 462,
+          "html": "Los conocimientos adquiridos también pueden aplicarse en servicios de consultoría e implementación de <em>chatbots</em> para pequeñas empresas y emprendimientos. Esta alternativa requiere combinar comunicación con clientes, gestión de proyectos y autonomía técnica para adaptar las soluciones a diferentes necesidades."
+        },
+        {
+          "index": 464,
+          "html": "La aplicación de estos saberes no se limita a las grandes organizaciones. Las pequeñas y medianas empresas, así como los emprendimientos personales, pueden aprovechar los <em>chatbots</em> para diferenciarse de su competencia, profesionalizar su atención y operar con mayor eficiencia. Una pequeña tienda en línea, una clínica veterinaria, una academia de idiomas o una fundación social pueden implementar soluciones conversacionales con plataformas accesibles y obtener beneficios concretos en pocas semanas. Esta democratización de la tecnología abre oportunidades laborales y de emprendimiento para quienes dominen las competencias presentadas."
+        },
+        {
+          "index": 466,
+          "html": "El informe técnico reúne y organiza las decisiones, resultados, hallazgos, ajustes y evidencias generados durante el desarrollo del chatbot. Su elaboración facilita la comprensión de la solución, la transferencia de conocimiento, el mantenimiento del sistema y la toma de decisiones para futuras versiones."
+        },
+        {
+          "index": 467,
+          "html": "De acuerdo con lo presentado sobre el informe técnico de <em>chatbots</em>, se relaciona una imagen que sintetiza sus principales características, estructura, tipos de presentación y evidencias de soporte:"
+        },
+        {
+          "index": 468,
+          "html": "<strong>Figura 6. </strong>Representación informe técnico <em>chatbots</em>"
+        },
+        {
+          "index": 471,
+          "html": "Para finalizar, se presenta un pódcast en el que se aborda la elaboración de un informe técnico de un <em>chatbot</em>. A través de una situación práctica, se revisan aspectos relacionados con su estructura, documentación de resultados, evidencias y recomendaciones, destacando la importancia de organizar y comunicar de manera clara el trabajo realizado:"
+        }
+      ]
+    }
+  ],
+  "pending": [
+    "Video oficial",
+    "Pódcast oficial"
+  ],
+  "glossary": 12,
+  "references": 10,
+  "questions": 20
+}
