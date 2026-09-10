@@ -15,12 +15,11 @@
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.1 Análisis de hallazgos y priorización
-
     p.mb-4 Los hallazgos obtenidos durante la verificación son de naturaleza diversa:
-    .BGF01.px-5.p-4.mb-4
+    .BGF04.px-5.p-4.mb-4
       .row.align-items-center
-        .col-lg-4.mb-4.mb-lg-0
-          img.tema4-personaje.mx-auto(src="@/assets/curso/temas/t4/img2.png" alt="")
+        .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block
+          img.mx-auto(src="@/assets/curso/temas/t4/img2.png" alt="")
         .col-lg-8
           SlyderF(columnas="col-12 col-md-6 col-xl-4")
             .tarjeta.bgwhite.p-4.h-100.text-center
@@ -43,7 +42,7 @@
               p.mb-0 Oportunidades de mejora en la experiencia del usuario.
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-auto.mb-4.mb-md-0
+      .col-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema4-icono.mx-auto(src="@/assets/curso/temas/t4/img25.svg" alt="")
       .col-md-9
         .bg04.p-4
@@ -126,8 +125,6 @@
             td Ajuste de integración.
             td Corrige problemas en la conexión con sistemas externos.
             td Manejar el caso en que la base de datos no responde dentro del tiempo esperado.
-
-
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.2 Iteración y mejora continua del #[em chatbot]
@@ -231,23 +228,23 @@
             p.mb-0 A medida que el <em>chatbot</em> evoluciona, el equipo debe mantener actualizadas sus competencias técnicas y procedimentales. Esto puede lograrse mediante capacitaciones periódicas, certificaciones en las plataformas utilizadas, asistencia a eventos del sector y participación en comunidades de práctica. Un equipo bien formado aplica las mejores prácticas de la industria y produce <em>chatbots</em> de mayor calidad.
 
     p.mb-4 En proyectos exitosos de <em>chatbots</em>, se observan algunos patrones recurrentes que pueden orientar a los aprendices:
-    .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         TabsA.color-acento-botones
           .tarjeta.bg05.p-4(titulo="Primero")
-            p.mb-0 <strong>Primero</strong>, el compromiso de la alta dirección con el proyecto: cuando los líderes de la organización valoran y respaldan la iniciativa, los recursos fluyen y los obstáculos se superan más fácilmente.
+            p.mb-0 El compromiso de la alta dirección con el proyecto: cuando los líderes de la organización valoran y respaldan la iniciativa, los recursos fluyen y los obstáculos se superan más fácilmente.
           .tarjeta.bg05.p-4(titulo="Segundo")
-            p.mb-0 <strong>Segundo</strong>, la formación de equipos interdisciplinarios que incluyen representantes del área técnica, del negocio, de servicio al cliente y de mercadeo.
+            p.mb-0 La formación de equipos interdisciplinarios que incluyen representantes del área técnica, del negocio, de servicio al cliente y de mercadeo.
           .tarjeta.bg05.p-4(titulo="Tercero")
-            p.mb-0 <strong>Tercero</strong>, el enfoque iterativo, comenzando con un alcance reducido y expandiéndolo progresivamente con base en los aprendizajes.
+            p.mb-0 El enfoque iterativo, comenzando con un alcance reducido y expandiéndolo progresivamente con base en los aprendizajes.
           .tarjeta.bg05.p-4(titulo="Cuarto")
-            p.mb-0 <strong>Cuarto</strong>, la cultura de medición, donde las decisiones se toman a partir de datos objetivos y no de intuiciones.
-      .col-lg-4
+            p.mb-0 La cultura de medición, donde las decisiones se toman a partir de datos objetivos y no de intuiciones.
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         img(src="@/assets/curso/temas/t4/img20.svg" alt="")
 
     p.mb-4 La incorporación de <em>chatbots</em> puede generar beneficios como la reducción de consultas repetitivas, una atención más disponible, el aumento de la capacidad del equipo para atender casos complejos y una mejor recopilación de información sobre las necesidades de los usuarios. Estos resultados dependen de factores como el diseño de la solución, el volumen de uso, la calidad de las integraciones y el seguimiento posterior al lanzamiento.
-    .row.align-items-center.mb-4
-      .col-lg-4.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.mb-4.mb-lg-0
         img(src="@/assets/curso/temas/t4/img21.svg" alt="")
       .col-lg-8
         .cajon.color-primario.p-4.mb-4
@@ -285,23 +282,8 @@
           .tarjeta.bgwhite.p-4(x="65%" y="83%" numero="+")
             h5.mb-4 Manufactura y agro Bajo
             p.mb-0 Soporte interno, atención a distribuidores.
-        AcordionA.d-lg-none(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          div(titulo="Banca y finanzas Alto")
-            p.mb-0 Consulta de saldo, transferencias, bloqueo de tarjetas.
-          div(titulo="Telecomunicaciones Alto")
-            p.mb-0 Soporte técnico, consulta de planes, recargas.
-          div(titulo="Comercio electrónico Medio-alto")
-            p.mb-0 Recomendación de productos, seguimiento de pedidos.
-          div(titulo="Salud Medio")
-            p.mb-0 Agendamiento de citas, recordatorios, primer <em>triaje</em>.
-          div(titulo="Educación Medio")
-            p.mb-0 Resolución de dudas, soporte a estudiantes.
-          div(titulo="Gobierno digital Medio-bajo")
-            p.mb-0 Información ciudadana, orientación de trámites.
-          div(titulo="Turismo y hospitalidad Medio-bajo")
-            p.mb-0 Reservas, recomendaciones, atención multilingüe.
-          div(titulo="Manufactura y agro Bajo")
-            p.mb-0 Soporte interno, atención a distribuidores.
+        figure.d-lg-none
+          img(src="@/assets/curso/temas/t4/img22_1.svg" alt="")
 
     p.mb-4 Hay que aclarar que no todos los proyectos de <em>chatbot</em> terminan exitosamente. Los casos de fracaso suelen tener causas comunes:
     .tema4-fondo-cierre.p-4.mb-4
@@ -324,11 +306,11 @@
               li.d-flex.mb-0
                 i.fas.fa-comment
                 span Falta de pruebas adecuadas o ausencia de seguimiento posterior al lanzamiento.
-        .col-lg-3
+        .col-lg-3.d-none.d-lg-block
           img(src="@/assets/curso/temas/t4/img23.svg" alt="")
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-auto.mb-4.mb-md-0
+      .col-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema4-icono.mx-auto(src="@/assets/curso/temas/t4/img24.svg" alt="")
       .col-md-9
         .bg04.p-4

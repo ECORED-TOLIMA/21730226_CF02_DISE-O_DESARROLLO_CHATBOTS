@@ -17,8 +17,8 @@
       h2 2.1 Buenas prácticas de construcción
     
     p.mb-4 Un flujo de conversación es la secuencia de mensajes y respuestas que sigue el <em>chatbot</em> durante una sesión con el usuario. Su construcción se realiza, por lo general, mediante un editor visual en el que se enlazan bloques de mensajes, preguntas, condiciones y acciones. La calidad del flujo depende tanto del diseño previo como de la rigurosidad con que se implementen sus diferentes componentes.
-    .row.align-items-center.mb-4
-      .col-lg-5.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.col-8.mb-4.mb-lg-0
         figure
           img(src="@/assets/curso/temas/t2/img2.png" alt="")
       .col-lg-7
@@ -64,15 +64,15 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.2 Ejemplo integrador para la atención al cliente
 
-    .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-8.mb-4.mb-lg-0.order-2.order-lg-1
         .bg04.p-4.mb-4
           p.mb-0 Para ilustrar la integración de los conceptos abordados, se presenta un caso aplicado al sector de servicios:
         p.mb-4 Una pequeña empresa de domicilios desea construir un <em>chatbot</em> en WhatsApp que atienda 3 tipos de consultas frecuentes: horarios de atención, menú del día y estado del pedido. La empresa enfrenta un alto volumen de llamadas telefónicas que saturan a su equipo de atención al cliente y considera que un <em>chatbot</em> puede aliviar esta carga sin reducir la calidad del servicio.
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 El proceso de diseño parte de entender al usuario típico: clientes habituales que conocen el producto y desean consultar información rápidamente, sin esperas. La plataforma elegida es Landbot, por su modalidad sin código y su integración con WhatsApp Business, lo que permitiría a la empresa lanzar el <em>chatbot</em> en pocos días sin contratar desarrolladores externos.
         p.mb-0 Las intenciones definidas son consultar el horario, el menú y el estado del pedido. Para atender estas consultas, el <em>chatbot</em> debe identificar y extraer las entidades necesarias, como el número de pedido, cuando se requiera para consultar su estado, y la fecha, cuando aplique. A partir de estas intenciones y entidades, se establece una comunicación cercana, breve y amable, en la que el <em>chatbot</em> se dirige al usuario por su nombre cuando este esté disponible. Esta experiencia se articula alrededor de una personalidad definida como Pipo, el asistente virtual de la pizzería, quien será el encargado de acompañar al usuario durante la interacción.
-      .col-lg-4
+      .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
           img(src="@/assets/curso/temas/t2/2150169863.png" alt="")
     .row.justify-content-center.mb-4
@@ -118,7 +118,7 @@
             td Si el usuario escribe AGENTE o el <em>chatbot</em> falla dos veces seguidas, se transfiere al equipo humano.
 
     .row.align-items-center.mb-0
-      .col-auto.mb-4.mb-md-0
+      .col-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema2-icono-cierre(src="@/assets/curso/temas/t2/img4.png" alt="")
       .col-md
         p.mb-0 Con la configuración definida, el equipo de la pizzería puede implementar el flujo y organizar los recorridos correspondientes a cada consulta. La primera versión contempla las funcionalidades esenciales para atender las necesidades más frecuentes y constituye un mínimo producto viable. Una vez construido, el <em>chatbot</em> deberá pasar por la fase de verificación para comprobar su funcionamiento antes de ser puesto en operación.

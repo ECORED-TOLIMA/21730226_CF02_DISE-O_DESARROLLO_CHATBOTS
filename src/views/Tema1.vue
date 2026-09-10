@@ -129,7 +129,7 @@
       img(src="@/assets/curso/icon.svg" alt="")
       span Opciones avanzadas de configuración
     .row.align-items-center.mb-4
-      .col-auto.mb-4.mb-md-0
+      .col-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema1-icono(src="@/assets/curso/temas/t1/img18.svg" alt="")
       .col-md
         p.mb-0 Una vez establecidos los parámetros básicos de interacción, operación y seguridad, algunas plataformas profesionales ofrecen funcionalidades avanzadas que permiten adaptar el comportamiento del <em>chatbot</em> a necesidades específicas. Estas opciones pueden utilizarse cuando el proyecto requiere respuestas diferenciadas según el horario, la ubicación, el idioma, los grupos de usuarios o la interacción con sistemas externos.
@@ -201,45 +201,42 @@
       .col-lg-10
         .bg04.p-4
           p.mb-0 Además, la documentación constituye un insumo importante para el informe técnico final, porque permite disponer de evidencias sobre las configuraciones realizadas, los cambios aplicados y las decisiones tomadas durante el desarrollo del <em>chatbot</em>. De esta manera, el informe no se limita a presentar resultados, sino que puede relacionarlos con el proceso de configuración y ajuste desarrollado.
-    //- Infografía final pendiente por indicación del usuario; conservar la tabla de contenido.
     p.mb-4 Antes de poner en producción un <em>chatbot</em>, es recomendable realizar una revisión final de los principales elementos configurados. Esta comprobación permite verificar que los parámetros definidos respondan a las condiciones previstas para el funcionamiento del sistema y que los aspectos relacionados con la interacción, la seguridad, los tiempos de respuesta y los canales hayan sido considerados. La siguiente información reúne los aspectos que deben validarse y las preguntas que orientan esta revisión:
-    .tabla-a.color-acento-contenido.mb-4
-      table
-        tbody
-          tr
-            td <strong>Mensaje de bienvenida</strong>
-            td ¿Presenta al <em>chatbot</em>, indica sus capacidades y orienta al usuario sobre cómo proceder?
-          tr
-            td <strong>Mensaje de respaldo</strong>
-            td ¿Es empático, no culpa al usuario y ofrece alternativas concretas?
-          tr
-            td <strong>Mensaje de despedida</strong>
-            td ¿Cierra la conversación de forma cordial e invita al usuario a regresar?
-          tr
-            td <strong>Reglas de escalamiento</strong>
-            td ¿Existe una vía clara para que el usuario hable con un humano cuando lo necesite?
-          tr
-            td <strong>Tiempos de espera</strong>
-            td ¿Está configurado un tiempo razonable de inactividad antes de cerrar la sesión?
-          tr
-            td <strong>Privacidad de datos</strong>
-            td ¿Se evita pedir información sensible directamente en el chat?
-          tr
-            td <strong>Frases de entrenamiento</strong>
-            td ¿Hay al menos 10 a 15 frases por intención, con variaciones realistas?
-          tr
-            td <strong>Canales activos</strong>
-            td ¿Están correctamente configurados los canales y sus credenciales?
-    ImagenInfografica.color-secundario.mb-5
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/t1/img22.svg', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+    .row.justify-content-center.mb-4.tema1-revision-final
+      .col-lg-10
+        ImagenInfografica.color-acento-botones.d-none.d-lg-block
+          template(v-slot:imagen)
+            figure
+              img(src="@/assets/curso/temas/t1/img22.svg" alt="")
+          .tarjeta.bgwhite.p-4(x="64%" y="22.5%" numero="+")
+            h5.mb-4 Mensaje de bienvenida
+            p.mb-0 ¿Presenta al <em>chatbot</em>, indica sus capacidades y orienta al usuario sobre cómo proceder?
+          .tarjeta.bgwhite.p-4(x="36%" y="30.2%" numero="+")
+            h5.mb-4 Mensaje de respaldo
+            p.mb-0 ¿Es empático, no culpa al usuario y ofrece alternativas concretas?
+          .tarjeta.bgwhite.p-4(x="64%" y="37.9%" numero="+")
+            h5.mb-4 Mensaje de despedida
+            p.mb-0 ¿Cierra la conversación de forma cordial e invita al usuario a regresar?
+          .tarjeta.bgwhite.p-4(x="36%" y="45.6%" numero="+")
+            h5.mb-4 Reglas de escalamiento
+            p.mb-0 ¿Existe una vía clara para que el usuario hable con un humano cuando lo necesite?
+          .tarjeta.bgwhite.p-4(x="64%" y="53.3%" numero="+")
+            h5.mb-4 Tiempos de espera
+            p.mb-0 ¿Está configurado un tiempo razonable de inactividad antes de cerrar la sesión?
+          .tarjeta.bgwhite.p-4(x="36%" y="61%" numero="+")
+            h5.mb-4 Privacidad de datos
+            p.mb-0 ¿Se evita pedir información sensible directamente en el chat?
+          .tarjeta.bgwhite.p-4(x="64%" y="68.7%" numero="+")
+            h5.mb-4 Frases de entrenamiento
+            p.mb-0 ¿Hay al menos 10 a 15 frases por intención, con variaciones realistas?
+          .tarjeta.bgwhite.p-4(x="36%" y="76.4%" numero="+")
+            h5.mb-4 Canales activos
+            p.mb-0 ¿Están correctamente configurados los canales y sus credenciales?
+        figure.d-lg-none
+          img(src="@/assets/curso/temas/t1/img22_1.svg" alt="")
 
     .row.justify-content-center.mb-4
-      .col-auto.mb-4.mb-md-0
+      .col-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema1-icono(src="@/assets/curso/temas/t1/img23.svg" alt="")
       .col-lg-11
         .bg04.p-3

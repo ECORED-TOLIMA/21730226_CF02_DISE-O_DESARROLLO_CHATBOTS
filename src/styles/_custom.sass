@@ -52,7 +52,8 @@
 
 figcaption 
     font-weight: normal !important
-
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li 
+  display: flex
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -103,6 +104,12 @@ figcaption
 
   
 //INTRO
+.intro-flecha-etapas
+  width: 18px
+  height: 16px
+  @media (max-width: $bp-max-md)
+    transform: rotate(90deg)
+
 .cajon.color-secundario
   background-color: #F3E2FE
 .cajon.color-primario
@@ -144,6 +151,14 @@ figcaption
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
 
+.BGF04
+  background-image: url("../assets/curso/temas/bg/imgfondo4.png")
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3.5rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
 .BGTARG
   background-image: url("../assets/curso/temas/bg/imgfondotarjeta.png")
   background-repeat: no-repeat
@@ -170,6 +185,17 @@ figcaption
 .bg06
   background-color: #FCE684
   background-position: center
+.bg07
+  background-color: #D6A0FC
+  background-position: center
+  border-radius: 10px
+  padding: 5px
+.bg08
+  background-color: #AFEDF6
+  background-position: center
+  border-radius: 10px
+  padding: 5px
+  
 .intro-avatar-principal
   .tarjeta-avatar-b__img
     min-width: 42%
