@@ -193,7 +193,7 @@
             td Detección de nuevas consultas que aparecen con frecuencia.
             td Incorporar nuevas intenciones a la versión siguiente.
 
-    p.mb-4 La mejora continua requiere acciones sistemáticas que permitan revisar el funcionamiento del chatbot, responder a los cambios, conservar los aprendizajes y fortalecer las capacidades del equipo. Estos aspectos se desarrollan a continuación:
+    p.mb-4 La mejora continua requiere acciones sistemáticas que permitan revisar el funcionamiento del <em>chatbot</em>, responder a los cambios, conservar los aprendizajes y fortalecer las capacidades del equipo. Estos aspectos se desarrollan a continuación:
     .BGF02.px-5.p-5.mb-4
       LineaTiempoC.color-acento-botones
         .row.align-items-center(titulo="a.")

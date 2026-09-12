@@ -18,8 +18,8 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.1 Procedimiento de verificación
 
-    p.mb-4 La verificación de un <em>chatbot</em> también conocida como <em>testing</em> conversacional consiste en someter el sistema a un conjunto de pruebas estructuradas que evalúan su comportamiento en distintos escenarios. Su objetivo es detectar errores antes de que el <em>chatbot</em> llegue a los usuarios finales y, de esta forma, evitar fallas que afecten la experiencia y dañen la reputación de la organización.
-    p.mb-4 El procedimiento de verificación se compone de cuatro 4 que se ejecutan de manera secuencial:
+    p.mb-4 La verificación de un <em>chatbot</em> también, conocida como <em>testing</em> conversacional, consiste en someter el sistema a un conjunto de pruebas estructuradas que evalúan su comportamiento en distintos escenarios. Su objetivo es detectar errores antes de que el <em>chatbot</em> llegue a los usuarios finales y, de esta forma, evitar fallas que afecten la experiencia y dañen la reputación de la organización.
+    p.mb-4 El procedimiento de verificación se compone de cuatro fases que se ejecutan de manera secuencial:
     .row.justify-content-center.mb-4
       .col-lg-10
         PasosA.color-primario(tipo="n")
@@ -140,11 +140,11 @@
           tr
             td Tasa de comprensión.
             td Porcentaje de mensajes del usuario que el <em>chatbot</em> interpreta correctamente.
-            td Idealmente superior al 80%.
+            td Idealmente superior al 80 %.
           tr
             td Tasa de finalización exitosa.
             td Porcentaje de conversaciones que terminan resolviendo la consulta.
-            td Idealmente superior al 70%.
+            td Idealmente superior al 70 %.
           tr
             td Tasa de escalamiento.
             td Porcentaje de conversaciones transferidas a agentes humanos.

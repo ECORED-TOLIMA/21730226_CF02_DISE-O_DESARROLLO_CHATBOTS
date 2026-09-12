@@ -37,7 +37,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Parámetros generales del chatbot',
+            titulo: 'Parámetros generales del <em>chatbot</em>',
             hash: 't_1_1',
           },
           {
@@ -68,7 +68,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Verificación del funcionamiento del chatbot',
+        titulo: 'Verificación del funcionamiento del <em>chatbot</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -139,6 +139,16 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/21730226_CF02_CFA.pdf',
+      },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
+      {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
@@ -167,7 +177,7 @@ export default {
     {
       termino: 'Ciclo plan-do-check-act',
       terminoHtml:
-        '<strong><em>Ciclo plan-do-</em></strong><strong><em>check</em></strong><strong><em>-</em></strong><strong><em>act</em></strong><strong></strong>',
+        '<strong>Ciclo <em>plan-do-</em></strong><strong><em>check</em></strong><strong><em>-</em></strong><strong><em>act</em></strong><strong></strong>',
       significado:
         'metodología iterativa de mejora basada en cuatro fases: planificación, ejecución, verificación y actuación.',
     },
@@ -204,7 +214,7 @@ export default {
     {
       termino: 'Testing conversacional',
       terminoHtml:
-        '<strong><em>Testing</em></strong><strong><em> conversacional</em></strong><strong></strong>',
+        '<strong><em>Testing</em></strong> <strong>conversacional</strong><strong></strong>',
       significado:
         'disciplina que combina pruebas de <em>software</em> con metodologías de experiencia de usuario aplicadas a <em>chatbots</em>.',
     },

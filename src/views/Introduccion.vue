@@ -66,7 +66,7 @@
     p.mb-4 Por lo anterior, para comprender la importancia del contenido y los temas abordados, se recomienda acceder al siguiente video:
     //- Video de muestra conservado por indicación del usuario; pendiente reemplazo por el oficial.
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="Video de introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="1331" height="749" src="https://www.youtube.com/embed/1v6T5bw5PK8" title="Configuration, Creation, Verification, and Documentation of Conversational Flows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 </template>
 
 <script>

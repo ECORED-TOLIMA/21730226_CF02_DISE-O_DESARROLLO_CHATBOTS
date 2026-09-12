@@ -50,16 +50,19 @@
     .row.justify-content-center.mb-4
       .col-md-6.col-lg-4.mb-4.mb-md-0
         .tarjeta-avatar
-          img(src="@/assets/curso/temas/t5/img3.svg" alt="")
-          .tarjeta.bg02.w-100
-            .p-4.text-center
-              p.mb-0 Se prefiere «se implementó el <em>chatbot</em>».
-      .col-md-6.col-lg-4.mb-4.mb-md-0
-        .tarjeta-avatar
           img(src="@/assets/curso/temas/t5/img2.svg" alt="")
           .tarjeta.bg02.w-100
             .p-4.text-center
-              p.mb-0 En lugar de escribir «implementamos el <em>chatbot</em>».
+              h5 En lugar de escribir
+              p.mb-0 «implementamos el <em>chatbot</em>».
+              
+      .col-md-6.col-lg-4.mb-4.mb-md-0
+        .tarjeta-avatar
+          img(src="@/assets/curso/temas/t5/img3.svg" alt="")
+          .tarjeta.bg02.w-100
+            .p-4.text-center
+              h5 Se prefiere
+              p.mb-0 «se implementó el <em>chatbot</em>».
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.mb-4.mb-md-0.d-none.d-lg-block
@@ -119,7 +122,7 @@
             td Versión completa con anexos extendidos.
             td Cumplimiento normativo, trazabilidad, evidencias documentales.
 
-    p.mb-4 La elaboración de versiones diferenciadas no implica redactar 3 documentos completamente distintos. En la práctica, se mantiene un documento maestro completo del que se derivan las distintas versiones, según las necesidades de cada audiencia. Esta aproximación garantiza la consistencia de la información y facilita el mantenimiento del documento a lo largo del proyecto.
+    p.mb-4 La elaboración de versiones diferenciadas no implica redactar tres documentos completamente distintos. En la práctica, se mantiene un documento maestro completo del que se derivan las distintas versiones, según las necesidades de cada audiencia. Esta aproximación garantiza la consistencia de la información y facilita el mantenimiento del documento a lo largo del proyecto.
     .row.justify-content-center.align-items-center.mb-0
       .col-auto.mb-4.mb-md-0.d-none.d-lg-block
         img.tema5-icono.mx-auto(src="@/assets/curso/temas/t5/img7.svg" alt="")
@@ -131,7 +134,7 @@
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.1 Estructura y contenido del informe del #[em chatbot]
 
-    p.mb-4 La estructura de un informe técnico de <em>chatbot</em> se adapta a las necesidades del proyecto, pero suele incluir las siguientes 9 secciones estándar que aseguran cubrir los aspectos esenciales. Esta estructura es ampliamente aceptada en la industria y facilita que distintos lectores encuentren rápidamente la información que necesitan:
+    p.mb-4 La estructura de un informe técnico de <em>chatbot</em> se adapta a las necesidades del proyecto, pero suele incluir las siguientes nueve secciones estándar que aseguran cubrir los aspectos esenciales. Esta estructura es ampliamente aceptada en la industria y facilita que distintos lectores encuentren rápidamente la información que necesitan:
     .BGF04.px-5.p-4.mb-4
       .row.align-items-center
         .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block
@@ -144,7 +147,7 @@
               p.mb-0 Título, autor, organización, fecha y versión.
             .tarjeta.bgwhite.p-4.h-100.text-center
               img.tema5-icono.mx-auto.mb-4(src="@/assets/curso/temas/t5/img10.svg" alt="")
-              h5.mb-4 2. Resumen Ejecutivo
+              h5.mb-4 2. Resumen ejecutivo
               p.mb-0 Síntesis del proyecto, hallazgos clave y conclusiones.
             .tarjeta.bgwhite.p-4.h-100.text-center
               img.tema5-icono.mx-auto.mb-4(src="@/assets/curso/temas/t5/img11.svg" alt="")
@@ -224,7 +227,7 @@
             img(src="@/assets/curso/temas/t5/img21.svg" alt="")
           .tarjeta.bg02
             .p-4
-              p.mb-0 El informe técnico reúne y organiza las decisiones, resultados, hallazgos, ajustes y evidencias generados durante el desarrollo del chatbot. Su elaboración facilita la comprensión de la solución, la transferencia de conocimiento, el mantenimiento del sistema y la toma de decisiones para futuras versiones.
+              p.mb-0 El informe técnico reúne y organiza las decisiones, resultados, hallazgos, ajustes y evidencias generados durante el desarrollo del <em>chatbot</em>. Su elaboración facilita la comprensión de la solución, la transferencia de conocimiento, el mantenimiento del sistema y la toma de decisiones para futuras versiones.
 
     p.mb-4 De acuerdo con lo presentado sobre el informe técnico de <em>chatbots</em>, se relaciona una imagen que sintetiza sus principales características, estructura, tipos de presentación y evidencias de soporte:
     .titulo-sexto.color-acento-contenido.mb-3.mt-4
@@ -237,8 +240,23 @@
       .col-12.d-block.d-lg-none
         figure
           img(src="@/assets/curso/temas/t5/img22_1.svg" alt="Figura 6 que representa de manera general los principales elementos que conforman un informe técnico de chatbots, desde sus características y estructura hasta las evidencias que respaldan la documentación del proyecto")
-    p.mb-0 Para finalizar, se presenta un pódcast en el que se aborda la elaboración de un informe técnico de un <em>chatbot</em>. A través de una situación práctica, se revisan aspectos relacionados con su estructura, documentación de resultados, evidencias y recomendaciones, destacando la importancia de organizar y comunicar de manera clara el trabajo realizado:
-    //- Pendiente de incorporar el pódcast oficial 21730226_CF02_Guion_Podcast_01.
+    p.mb-4 Para finalizar, se presenta un pódcast en el que se aborda la elaboración de un informe técnico de un <em>chatbot</em>. A través de una situación práctica, se revisan aspectos relacionados con su estructura, documentación de resultados, evidencias y recomendaciones, destacando la importancia de organizar y comunicar de manera clara el trabajo realizado:
+    .row.justify-content-center.align-items-center
+      .col-lg-8        
+        .tarjeta.bg05.p-3
+          .row.justify-content-center.align-items-center
+            .col-lg-3.d-none.d-lg-block
+              img(src="@/assets/curso/temas/t5/img23.svg" alt="")
+            .col-lg-9
+              
+              .tarjeta.clr--pink.p-4.rounded-0.h-100
+                h5 Pódcast
+                .tarjeta.bg-white.p-3
+                  TarjetaAudio.color-acento-botones.mb-3(
+                  texto="Del desarrollo a la evidencia: documentando un <em>chatbot</em> "
+                  :audio="require_src('@/assets/curso/temas/audio/Podcast_CF02.mp3')"
+              )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 </template>
 
 <script>
