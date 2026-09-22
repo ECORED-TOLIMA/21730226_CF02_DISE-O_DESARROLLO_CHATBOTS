@@ -67,6 +67,7 @@
     //- Video de muestra conservado por indicación del usuario; pendiente reemplazo por el oficial.
     .video
       iframe(width="1331" height="749" src="https://www.youtube.com/embed/1v6T5bw5PK8" title="Configuration, Creation, Verification, and Documentation of Conversational Flows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption Video 1. Configuración, creación, verificación y documentación de flujos conversacionales
 </template>
 
 <script>

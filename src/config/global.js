@@ -32,7 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Configuración de los parámetros de la conversación',
+        titulo: 'Configuración de los parámetros de conversación',
         desarrolloContenidos: true,
         subMenu: [
           {

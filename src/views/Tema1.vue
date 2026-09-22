@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Configuración de los parámetros de la conversación
+      h1 Configuración de los parámetros de conversación
 
     figure.mb-4
       img(src="@/assets/curso/temas/t1/img1.png" alt="")
@@ -79,7 +79,7 @@
     .titulo-pastilla1.mt-4(data-aos="fade-down")
       img(src="@/assets/curso/icon.svg" alt="")
       span Configuración de la interacción
-    p.mb-4 La configuración de la interacción reúne los elementos que permiten adaptar el comportamiento del <em>chatbot</em> a las características del usuario y a las condiciones en las que se desarrolla la conversación. En este grupo se consideran la información que el sistema puede conservar durante el diálogo, las condiciones regionales, los medios de acceso y las características lingüísticas de la interacción. Entre los principales aspectos se encuentran:
+    p.mb-4 La configuración de la interacción reúne los elementos que permiten adaptar el comportamiento del <em>chatbot</em> a las características del usuario y a las condiciones en las que se desarrolla la conversación. En este grupo se considera la información que el sistema puede conservar durante el diálogo, las condiciones regionales, los medios de acceso y las características lingüísticas de la interacción. Entre los principales aspectos se encuentran:
     TabsC.color-acento-botones.mb-4
       .py-4.py-md-5.px-4.bg02(titulo="Variables del usuario")
         .row.justify-content-center.align-items-center
