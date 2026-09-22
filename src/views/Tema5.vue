@@ -135,10 +135,10 @@
       h2 5.1 Estructura y contenido del informe del #[em chatbot]
 
     p.mb-4 La estructura de un informe técnico de <em>chatbot</em> se adapta a las necesidades del proyecto, pero suele incluir las siguientes nueve secciones estándar que aseguran cubrir los aspectos esenciales. Esta estructura es ampliamente aceptada en la industria y facilita que distintos lectores encuentren rápidamente la información que necesitan:
-    .BGF04.px-5.p-4.mb-4
+    .BGF05.px-5.p-4.mb-4
       .row.align-items-center
         .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block
-          img.tema5-personaje.mx-auto(src="@/assets/curso/temas/t5/img8.png" alt="")
+          img.mx-auto(src="@/assets/curso/temas/t5/img8.png" alt="")
         .col-lg-8
           SlyderF(columnas="col-12 col-md-6 col-xl-4")
             .tarjeta.bgwhite.p-4.h-100.text-center
